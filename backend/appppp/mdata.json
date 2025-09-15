@@ -1,0 +1,2430 @@
+{
+  "records": [
+    {
+      "patientID": "IM001",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "65-year-old male, with 5 years of diabetes history. Current blood glucose level is 220 mg/dL. Reports intermittent dizziness and thirst.",
+        "Action": "Checked blood glucose and administered oral hypoglycemic agents as per physician’s order. Encouraged increased fluid intake, monitored vital signs, and observed skin condition.",
+        "Response": "Blood glucose gradually decreased after medication; patient’s dizziness and thirst improved slightly.",
+        "Teaching": "Demonstrated proper fingertip blood glucose testing technique and emphasized the importance of regular monitoring and following a diabetic diet."
+      }
+    },
+    {
+      "patientID": "IM002",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old female with a 10-year history of hypertension. Current blood pressure is 165/95 mmHg. Complains of chest tightness.",
+        "Action": "Placed patient in semi-Fowler’s position, administered antihypertensive medication per physician’s order, and provided 3 L/min of supplemental oxygen.",
+        "Response": "Chest tightness gradually subsided and blood pressure decreased to 150/90 mmHg.",
+        "Teaching": "Advised reducing salt intake and instructed her to measure blood pressure daily. Emphasized seeking immediate care if severe chest pain occurs."
+      }
+    },
+    {
+      "patientID": "IM003",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old male with COPD. SpO2 is 89%. Presenting symptoms include shortness of breath and cough.",
+        "Action": "Provided high-flow nasal cannula oxygen at 5 L/min and performed chest physiotherapy to aid sputum clearance.",
+        "Response": "SpO2 improved to 92%, respiratory rate decreased from 24 to 20 breaths per minute.",
+        "Teaching": "Taught proper use of respiratory devices and instructed on diaphragmatic breathing techniques. Recommended smoking cessation and avoiding dusty environments."
+      }
+    },
+    {
+      "patientID": "IM004",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "62-year-old female with acute renal insufficiency. Serum creatinine is significantly elevated. Exhibits edema and fatigue.",
+        "Action": "Adjusted IV infusion rate per physician’s order and closely monitored intake and output. Scheduled an abdominal ultrasound.",
+        "Response": "Edema slightly reduced; patient remains fatigued and requires further observation.",
+        "Teaching": "Instructed patient to follow a low-sodium, low-protein diet and monitor daily weight. Emphasized regular follow-up for renal function tests."
+      }
+    },
+    {
+      "patientID": "IM005",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "80-year-old male with a history of poor gastrointestinal function. Has had constipation and abdominal bloating for 3 days.",
+        "Action": "Administered a mild laxative per physician’s order and performed gentle abdominal massage. Assisted patient with ambulation.",
+        "Response": "Patient had a bowel movement later in the evening. Abdominal bloating slightly relieved.",
+        "Teaching": "Recommended increasing dietary fiber and warm water intake, maintaining regular activity, and avoiding prolonged bed rest."
+      }
+    },
+    {
+      "patientID": "IM006",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "72-year-old female diagnosed with heart failure. Notable bilateral leg edema and shortness of breath.",
+        "Action": "Administered diuretics per physician’s order. Elevated lower extremities to improve venous return and monitored vital signs closely.",
+        "Response": "Urine output increased and edema gradually improved. Respiratory rate decreased slightly.",
+        "Teaching": "Explained warning signs of heart failure exacerbation (e.g., nocturnal dyspnea) and advised fluid and sodium restriction."
+      }
+    },
+    {
+      "patientID": "IM007",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "55-year-old male with cirrhosis. Notable palmar erythema and jaundice. Patient complains of general weakness.",
+        "Action": "Arranged liver function tests and abdominal ultrasound as ordered. Monitored coagulation profile.",
+        "Response": "Test results indicate declining liver function. Referred to hepatobiliary specialists for further evaluation.",
+        "Teaching": "Advised strict avoidance of alcohol and unnecessary medications. Reinforced the importance of regular medical follow-up."
+      }
+    },
+    {
+      "patientID": "IM008",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "63-year-old female with osteoporosis and a compression fracture of the vertebrae. Complains of lower back pain and difficulty moving.",
+        "Action": "Provided pain medication and applied a lumbar support brace. Scheduled physical therapy.",
+        "Response": "Pain score reduced from 8 to 4. Patient is able to stand and walk slowly with assistance.",
+        "Teaching": "Educated on safe mobility techniques and importance of calcium- and vitamin D-rich foods."
+      }
+    },
+    {
+      "patientID": "IM009",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "49-year-old male with a 5-year history of alcohol abuse. Reduced appetite for the past two weeks, physical exam suggests possible hepatosplenomegaly.",
+        "Action": "Obtained blood tests for liver function and coagulation profile. Provided vitamin B supplements and nutritional support.",
+        "Response": "Lab results indicate abnormal liver function. Advised patient to cease alcohol consumption and undergo further testing for hepatitis.",
+        "Teaching": "Explained detrimental effects of alcohol on liver health. Recommended support groups for alcohol cessation."
+      }
+    },
+    {
+      "patientID": "IM010",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "75-year-old female diagnosed with anemia (Hb: 8.5 g/dL). Presents generalized weakness and pallor.",
+        "Action": "Administered IV iron and folic acid per physician’s order. Continuously monitored hemoglobin and blood pressure.",
+        "Response": "Patient showed slight improvement in energy level; hemoglobin trend under ongoing observation.",
+        "Teaching": "Encouraged a balanced diet with iron-rich foods like dark green vegetables and red meat. Reinforced the need for regular blood work."
+      }
+    },
+    {
+      "patientID": "IM011",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old female diagnosed with chronic bronchitis, presenting with an exacerbated cough and increased sputum today.",
+        "Action": "Administered bronchodilators and expectorants as ordered and assisted with breathing exercises.",
+        "Response": "Patient's symptoms improved, with reduced cough and thinner sputum.",
+        "Teaching": "Demonstrated proper inhaler usage and emphasized the importance of smoking cessation and regular follow-ups."
+      }
+    },
+    {
+      "patientID": "IM012",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "66-year-old male with chronic heart disease complaining of palpitations and fatigue.",
+        "Action": "Monitored cardiac rhythm and adjusted cardiac medication according to orders.",
+        "Response": "Palpitations gradually improved, and heart rate and blood pressure stabilized.",
+        "Teaching": "Reminded the patient to adhere to the prescribed medication regimen and to have regular cardiac evaluations."
+      }
+    },
+    {
+      "patientID": "IM013",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "73-year-old female with chronic kidney disease, presenting with edema and recent weight gain.",
+        "Action": "Adjusted the dosage of diuretics and closely monitored urine output and weight changes.",
+        "Response": "Edema improved and weight decreased.",
+        "Teaching": "Educated the patient on a low-sodium diet, regular exercise, and timely medication adherence."
+      }
+    },
+    {
+      "patientID": "IM014",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "60-year-old male diagnosed with chronic gastritis, complaining of epigastric discomfort and poor appetite.",
+        "Action": "Administered gastroprotective medications as ordered and scheduled an abdominal ultrasound.",
+        "Response": "Symptoms were slightly relieved and the patient is in good condition.",
+        "Teaching": "Advised the patient to avoid spicy foods and to undergo regular examinations."
+      }
+    },
+    {
+      "patientID": "IM015",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "69-year-old female admitted for an exacerbation of COPD, presenting with dyspnea and persistent cough.",
+        "Action": "Provided inhaled bronchodilators and oxygen therapy, and initiated pulmonary physiotherapy.",
+        "Response": "The patient's respiratory condition improved significantly, and the cough was markedly reduced.",
+        "Teaching": "Instructed the patient on proper inhaler techniques and advised smoking cessation."
+      }
+    },
+    {
+      "patientID": "IM016",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "64-year-old male with hypertension and hypercholesterolemia was found to have elevated blood pressure during a routine check-up.",
+        "Action": "Closely monitored his blood pressure and adjusted antihypertensive medications as per orders.",
+        "Response": "Blood pressure gradually returned to the normal range.",
+        "Teaching": "Emphasized the importance of lifestyle modifications and a low-fat diet."
+      }
+    },
+    {
+      "patientID": "IM017",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old female with chronic hepatitis, presenting with increased fatigue and worsening jaundice.",
+        "Action": "Scheduled liver function tests and adjusted the care plan based on the results.",
+        "Response": "The patient's condition stabilized; continuous observation is necessary.",
+        "Teaching": "Instructed the patient to avoid alcohol and high-fat foods, and to monitor liver function regularly."
+      }
+    },
+    {
+      "patientID": "IM018",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "67-year-old male diagnosed with arrhythmia, experiencing occasional episodes of tachycardia.",
+        "Action": "Continuously monitored his cardiac rhythm and adjusted medications as per orders while maintaining electrolyte balance.",
+        "Response": "Cardiac rhythm gradually normalized.",
+        "Teaching": "Advised the patient to avoid caffeine and stimulants, and to have regular cardiac examinations."
+      }
+    },
+    {
+      "patientID": "IM019",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "61-year-old female hospitalized for chronic lung disease, presenting with persistent cough and coarse breath sounds.",
+        "Action": "Administered oxygen therapy and antitussive medications while monitoring her pulmonary function.",
+        "Response": "Her respiratory status improved significantly and her cough was reduced.",
+        "Teaching": "Instructed on the proper use of oxygen equipment and cough techniques, and encouraged smoking cessation."
+      }
+    },
+    {
+      "patientID": "IM020",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "72-year-old male diagnosed with anemia associated with chronic disease, complaining of persistent fatigue and dizziness.",
+        "Action": "Administered IV iron and folic acid as per physician's orders, and regularly monitored his blood parameters.",
+        "Response": "His symptoms improved following treatment and his activity level increased.",
+        "Teaching": "Educated the patient on a balanced diet rich in iron and scheduled regular blood tests."
+      }
+    },
+    {
+      "patientID": "IM021",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "75-year-old male with an 8-year history of diabetes, poorly controlled (HbA1c 9.2%). Recently experiencing recurrent hypoglycemia.",
+        "Action": "Adjusted insulin dosage per physician's order, monitored blood glucose levels, and provided hypoglycemia management guidance.",
+        "Response": "Blood glucose levels stabilized, and no further hypoglycemic episodes occurred.",
+        "Teaching": "Instructed the patient on proper meal planning, avoiding fasting before insulin use, and carrying emergency glucose sources."
+      }
+    },
+    {
+      "patientID": "IM022",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old female diagnosed with stage 3 chronic kidney disease, experiencing edema and frequent nocturia over the past two weeks.",
+        "Action": "Adjusted diuretics per physician's order, monitored blood pressure, urine output, and weight changes.",
+        "Response": "Edema improved, and nocturia frequency decreased.",
+        "Teaching": "Educated the patient on a low-sodium, low-protein diet and the importance of regular kidney function monitoring."
+      }
+    },
+    {
+      "patientID": "IM023",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "60-year-old male with a 5-year history of chronic gastroesophageal reflux disease (GERD), experiencing worsened nighttime heartburn.",
+        "Action": "Administered proton pump inhibitors (PPI) and advised the patient to avoid eating two hours before bedtime.",
+        "Response": "Symptoms significantly improved, and nighttime sleep quality increased.",
+        "Teaching": "Instructed the patient to avoid spicy and fatty foods, elevate the head while sleeping, and follow up regularly."
+      }
+    },
+    {
+      "patientID": "IM024",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "71-year-old male with a 3-year history of atrial fibrillation, presenting with unstable blood pressure and chest tightness.",
+        "Action": "Monitored ECG and blood pressure, adjusted anticoagulant medication per physician's order.",
+        "Response": "Heart rhythm stabilized, and chest tightness improved.",
+        "Teaching": "Advised the patient on medication adherence, limiting salt intake, and regular coagulation function testing."
+      }
+    },
+    {
+      "patientID": "IM025",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "66-year-old female admitted due to COPD exacerbation, presenting with shortness of breath and an SpO2 level of 89%.",
+        "Action": "Provided oxygen therapy (3L/min), administered bronchodilators and expectorants.",
+        "Response": "Patient's respiratory condition improved, SpO2 increased to 94%.",
+        "Teaching": "Instructed the patient on proper breathing techniques, encouraged smoking cessation, and avoiding air pollutants."
+      }
+    },
+    {
+      "patientID": "IM026",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male experiencing recurrent dizziness and large blood pressure fluctuations (BP 170/95 - 130/75 mmHg).",
+        "Action": "Monitored blood pressure trends, adjusted antihypertensive medication per physician's order, and assessed for orthostatic hypotension.",
+        "Response": "Blood pressure became more stable, and dizziness improved.",
+        "Teaching": "Advised the patient to stand up slowly, avoid sudden water intake, and regularly monitor blood pressure."
+      }
+    },
+    {
+      "patientID": "IM027",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "63-year-old female diagnosed with osteoporosis, experiencing lower back pain and difficulty walking.",
+        "Action": "Prescribed calcium and vitamin D supplements, and arranged for physical therapy.",
+        "Response": "Pain severity reduced, and the patient showed slight improvement in mobility.",
+        "Teaching": "Educated the patient on safe exercise, fall prevention, and ensuring adequate calcium and vitamin D intake."
+      }
+    },
+    {
+      "patientID": "IM028",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "65-year-old male with a 10-year history of alcohol abuse, experiencing loss of appetite and skin bruising.",
+        "Action": "Ordered liver function tests and provided vitamin B and folic acid supplements.",
+        "Response": "Patient’s general condition improved slightly; further liver function monitoring required.",
+        "Teaching": "Encouraged alcohol cessation and provided resources for addiction support."
+      }
+    },
+    {
+      "patientID": "IM029",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old female diagnosed with rheumatoid arthritis, experiencing increased joint pain.",
+        "Action": "Administered anti-inflammatory medication and scheduled physical therapy.",
+        "Response": "Pain levels decreased, and joint mobility slightly improved.",
+        "Teaching": "Educated the patient on joint protection strategies, avoiding overuse, and maintaining regular rehabilitation therapy."
+      }
+    },
+    {
+      "patientID": "IM030",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "72-year-old male with chronic anemia, reporting persistent fatigue and palpitations over the past week.",
+        "Action": "Administered iron supplements and vitamin B12 per physician's order, and scheduled a blood test.",
+        "Response": "Fatigue symptoms slightly improved, and palpitations decreased.",
+        "Teaching": "Encouraged a balanced diet rich in iron and vitamin B12 and advised regular blood work monitoring."
+      }
+    },
+    {
+      "patientID": "IM031",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old male, diagnosed with pneumonia, temperature 38.5°C, respiratory rate 22 breaths/min, SpO₂ 92%. Chief complaint: cough with yellow sputum, shortness of breath for 3 days.",
+        "Action": "Administered oxygen therapy (2L/min), intravenous antibiotics (Ceftriaxone 1g Q12H), and monitored vital signs and SpO₂ every 4 hours.",
+        "Response": "Temperature decreased to 37.8°C, SpO₂ increased to 96%.",
+        "Teaching": "Instructed on deep breathing exercises and coughing techniques, emphasized completing the antibiotic course."
+      }
+    },
+    {
+      "patientID": "IM032",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "55-year-old female, diabetes with hyperglycemic crisis, random blood glucose 320 mg/dL. Chief complaint: frequent urination, thirst, fatigue.",
+        "Action": "Administered subcutaneous rapid-acting insulin (6 units), intravenous infusion of 0.9% NaCl, monitored blood glucose hourly, and recorded intake and output.",
+        "Response": "After 2 hours, blood glucose decreased to 180 mg/dL, consciousness improved.",
+        "Teaching": "Educated on dietary control and insulin injection techniques, provided low-GI diet recommendations."
+      }
+    },
+    {
+      "patientID": "IM033",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "72-year-old male with chronic heart failure, BP 150/95 mmHg, lower limb edema ++. Chief complaint: orthopnea, paroxysmal nocturnal dyspnea.",
+        "Action": "Administered Furosemide 40mg IV, restricted daily fluid intake to <1500ml, performed daily weight measurement, and auscultation for lung crackles.",
+        "Response": "Urine output increased by 800ml, breathing difficulty relieved.",
+        "Teaching": "Educated on low-sodium diet and recognizing signs of symptom worsening."
+      }
+    },
+    {
+      "patientID": "IM034",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "45-year-old female with acute asthma exacerbation, respiratory rate 28 breaths/min, prominent wheezing. Chief complaint: chest tightness, using accessory muscles to breathe.",
+        "Action": "Administered nebulized Salbutamol 5mg + Ipratropium 0.5mg, elevated head of bed to 45 degrees, monitored continuous pulse oximetry and assessed breath sounds.",
+        "Response": "Respiratory rate decreased to 18 breaths/min, wheezing reduced.",
+        "Teaching": "Educated on inhaler use techniques and allergen avoidance."
+      }
+    },
+    {
+      "patientID": "IM035",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "80-year-old male with COPD exacerbation, PaO₂ 55 mmHg, using BiPAP. Chief complaint: thick sputum, difficult to expectorate.",
+        "Action": "Administered nebulized Acetylcysteine 3ml Q6H, performed chest physiotherapy, and assessed breathing pattern and sputum characteristics every 2 hours.",
+        "Response": "Sputum became light yellow and easier to expectorate, PaO₂ increased to 68 mmHg.",
+        "Teaching": "Demonstrated effective coughing techniques and home oxygen use precautions."
+      }
+    },
+    {
+      "patientID": "IM036",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "60-year-old female with upper gastrointestinal bleeding, Hb 7.8 g/dL, BP 90/60 mmHg. Chief complaint: melena, dizziness.",
+        "Action": "Transfused 2 units of PRBC, administered IV Pantoprazole 40mg Q12H, monitored vital signs every 15 minutes, and recorded bowel movements.",
+        "Response": "Hb increased to 9.5 g/dL, BP stabilized at 110/70 mmHg.",
+        "Teaching": "Educated on avoiding NSAIDs and gradual dietary recovery."
+      }
+    },
+    {
+      "patientID": "IM037",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "50-year-old male with acute pancreatitis, serum amylase 1200 U/L, pain score 7/10. Chief complaint: severe epigastric pain radiating to the back.",
+        "Action": "Maintained NPO status, administered IV Morphine 2mg Q4H PRN, monitored daily serum amylase and assessed pain level.",
+        "Response": "Pain decreased to 3/10, bowel sounds returned.",
+        "Teaching": "Explained the importance of fasting and provided alcohol cessation education."
+      }
+    },
+    {
+      "patientID": "IM038",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "65-year-old female with hyperthyroidism, heart rate 120 bpm, hand tremors. Chief complaint: palpitations, weight loss.",
+        "Action": "Administered oral Propranolol 20mg TID, applied cold compresses to relieve flushing, monitored daily heart rate and temperature.",
+        "Response": "Heart rate decreased to 88 bpm, palpitations improved.",
+        "Teaching": "Educated on avoiding iodine-containing foods and the importance of regular follow-ups."
+      }
+    },
+    {
+      "patientID": "IM039",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male with urinary tract infection, temperature 39°C, cloudy urine. Chief complaint: burning sensation during urination, frequent urination.",
+        "Action": "Administered IV Ciprofloxacin 400mg Q12H, encouraged daily fluid intake of 2000ml, monitored temperature every 6 hours, and recorded urination status.",
+        "Response": "Temperature decreased to 37.2°C, urinary pain reduced.",
+        "Teaching": "Emphasized adequate hydration and personal hygiene education."
+      }
+    },
+    {
+      "patientID": "IM040",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old female with rheumatoid arthritis, CRP 48 mg/L, joint swelling ++. Chief complaint: morning stiffness lasting 2 hours.",
+        "Action": "Administered Methotrexate 15mg orally once a week, applied local heat therapy, assessed joint mobility and pain index.",
+        "Response": "After 1 week of treatment, morning stiffness reduced to 30 minutes.",
+        "Teaching": "Educated on joint protection techniques and monitoring medication side effects."
+      }
+    },
+    {
+      "patientID": "IM041",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male newly diagnosed with diabetes mellitus. Presenting symptoms include frequent urination, thirst, high blood glucose (random glucose 260 mg/dL), and fatigue.",
+        "Action": "Administered oral hypoglycemic medications and monitored blood glucose regularly.",
+        "Response": "Blood glucose level decreased to 180 mg/dL. Patient's fatigue improved slightly.",
+        "Teaching": "Instructed patient about diabetic dietary recommendations and medication adherence."
+      }
+    },
+    {
+      "patientID": "IM042",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male patient presenting elevated blood pressure (160/100 mmHg) with symptoms of dizziness and mild chest discomfort.",
+        "Action": "Administered antihypertensive medication and continuously monitored vital signs and blood pressure.",
+        "Response": "Blood pressure gradually reduced to 140/85 mmHg. Symptoms of dizziness improved.",
+        "Teaching": "Educated patient on the importance of low-sodium diet, blood pressure management, and medication adherence."
+      }
+    },
+    {
+      "patientID": "IM043",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male patient presenting with fever (38.8°C), fatigue, and general weakness.",
+        "Action": "Administered antipyretics and provided adequate fluid intake. Monitored body temperature every two hours.",
+        "Response": "Temperature reduced gradually to 37.3°C. Patient reports improvement in fatigue and weakness.",
+        "Teaching": "Encouraged patient to drink more fluids, get adequate rest, and immediately inform medical staff if symptoms worsen."
+      }
+    },
+    {
+      "patientID": "IM044",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "69-year-old female with type 2 diabetes admitted due to elevated blood glucose levels (random glucose 255 mg/dL), complaining of increased thirst and frequent urination.",
+        "Action": "Administered oral antidiabetic medications, closely monitored blood glucose and hydration status.",
+        "Response": "Blood glucose level stabilized to 160 mg/dL, thirst symptoms relieved.",
+        "Teaching": "Provided education on dietary control, blood glucose monitoring, and diabetes management."
+      }
+    },
+    {
+      "patientID": "IM045",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old male presenting fever (temperature 38.7°C) and mild dehydration. Complains of generalized discomfort and weakness.",
+        "Action": "Administered antipyretics and intravenous fluids, monitored vital signs and hydration status closely.",
+        "Response": "Fever gradually subsided to 37.4°C, patient’s discomfort and dehydration improved.",
+        "Teaching": "Instructed patient to maintain proper hydration, rest adequately, and report any worsening symptoms immediately."
+      }
+    },
+    {
+      "patientID": "IM046",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "72-year-old male with diabetes mellitus, reporting frequent urination, thirst, and nocturia. Random blood glucose measured at 240 mg/dL.",
+        "Action": "Administered oral hypoglycemic medication as ordered, monitored urine output and glucose level.",
+        "Response": "Blood glucose decreased to 185 mg/dL, nocturia improved.",
+        "Teaching": "Instructed patient on carbohydrate control and medication adherence."
+      }
+    },
+    {
+      "patientID": "IM047",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old female with diabetes, reporting fatigue and recent weight loss. Random glucose at 250 mg/dL.",
+        "Action": "Monitored weight and glucose, administered oral antidiabetic medications, recorded food intake.",
+        "Response": "Patient showed slight improvement in energy, glucose reduced to 170 mg/dL.",
+        "Teaching": "Educated patient on blood sugar monitoring and balanced diet."
+      }
+    },
+    {
+      "patientID": "IM048",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old female with fever (38.9°C), dry mouth, and general weakness. Reduced urine output observed.",
+        "Action": "Administered antipyretics and provided oral and IV hydration.",
+        "Response": "Temperature decreased to 37.2°C, signs of dehydration improved.",
+        "Teaching": "Encouraged fluid intake and adequate rest. Monitored urine output."
+      }
+    },
+    {
+      "patientID": "IM049",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "65-year-old male presenting with dizziness and high blood pressure (158/98 mmHg). No chest pain reported.",
+        "Action": "Administered antihypertensive medication as ordered, monitored blood pressure every 30 minutes.",
+        "Response": "Blood pressure stabilized at 140/85 mmHg, dizziness resolved.",
+        "Teaching": "Advised patient to reduce salt intake and adhere to medication schedule."
+      }
+    },
+    {
+      "patientID": "IM050",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "66-year-old male with diabetes. Blood glucose measured at 265 mg/dL. Complained of blurry vision and fatigue.",
+        "Action": "Administered insulin therapy and monitored blood glucose and visual symptoms.",
+        "Response": "Glucose reduced to 175 mg/dL, vision stable.",
+        "Teaching": "Educated patient on blood glucose control and symptom awareness."
+      }
+    },
+    {
+      "patientID": "IM051",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "64-year-old female with hypertension. BP recorded at 165/100 mmHg. Complained of restlessness and mild headache.",
+        "Action": "Provided rest, administered antihypertensive medication, monitored vital signs.",
+        "Response": "BP decreased to 145/90 mmHg. Patient became calmer.",
+        "Teaching": "Advised on low-stimulus diet and stress management."
+      }
+    },
+    {
+      "patientID": "IM052",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "73-year-old male with uncontrolled diabetes. Blood glucose 300 mg/dL. Dry skin and extreme thirst reported.",
+        "Action": "Administered IV fluids and adjusted insulin dosage per physician’s order.",
+        "Response": "Glucose dropped to 180 mg/dL, patient reported symptom relief.",
+        "Teaching": "Educated on hydration and importance of food journaling."
+      }
+    },
+    {
+      "patientID": "IM053",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "60-year-old male with fever (38.5°C), fatigue, and poor appetite.",
+        "Action": "Administered antipyretics, monitored food intake and urinary output.",
+        "Response": "Temperature reduced to 37.4°C, slight improvement in appetite.",
+        "Teaching": "Advised rest and sufficient nutritional intake."
+      }
+    },
+    {
+      "patientID": "IM054",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "69-year-old female with a history of hypertension. BP recorded at 155/95 mmHg, feeling agitated.",
+        "Action": "Administered antihypertensive medication, instructed bed rest, and monitored blood pressure and emotional status.",
+        "Response": "BP reduced to 135/85 mmHg, emotional state improved.",
+        "Teaching": "Encouraged regular medication and emotional relaxation."
+      }
+    },
+    {
+      "patientID": "IM055",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "71-year-old male with diabetes. Blood glucose at 245 mg/dL. Complained of fatigue and excessive sweating.",
+        "Action": "Administered oral hypoglycemic medication, monitored glucose and perspiration levels.",
+        "Response": "Blood glucose decreased to 165 mg/dL, symptoms improved.",
+        "Teaching": "Informed patient that excessive sweating may indicate high blood sugar. Advised regular monitoring."
+      }
+    },
+    {
+      "patientID": "IM056",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with dehydration, presenting with dry mucous membranes, fatigue.",
+        "Action": "Provided IV fluids.",
+        "Response": "Hydration improved.",
+        "Teaching": "Encouraged oral intake."
+      }
+    },
+    {
+      "patientID": "IM057",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with stroke, presenting with right-sided weakness.",
+        "Action": "Provided supportive care and PT consult.",
+        "Response": "Improved mobility.",
+        "Teaching": "Taught fall precautions and exercises."
+      }
+    },
+    {
+      "patientID": "IM058",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with hypercalcemia, presenting with nausea, confusion.",
+        "Action": "Administered IV fluids and diuretics.",
+        "Response": "Calcium levels stabilized.",
+        "Teaching": "Educated on hydration and follow-up."
+      }
+    },
+    {
+      "patientID": "IM059",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "Admitted with mild pneumonia, low-grade fever (37.9°C), mild cough, slight shortness of breath.",
+        "Action": "Provided supportive care, monitored temperature and respiratory status, ensured adequate hydration.",
+        "Response": "Patient remained hemodynamically stable; mild cough persisted.",
+        "Teaching": "Instructed patient on deep breathing exercises and reporting any increased fever or difficulty breathing."
+      }
+    },
+    {
+      "patientID": "IM060",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with gout, presenting with joint pain, swelling in toe.",
+        "Action": "Administered colchicine.",
+        "Response": "Pain decreased.",
+        "Teaching": "Advised low-purine diet."
+      }
+    },
+    {
+      "patientID": "IM061",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with constipation, presenting with no bowel movement x3 days.",
+        "Action": "Given enema.",
+        "Response": "Bowel movement achieved.",
+        "Teaching": "Educated on fiber and fluid intake."
+      }
+    },
+    {
+      "patientID": "IM062",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with hypothyroidism, presenting with cold intolerance, constipation.",
+        "Action": "Administered levothyroxine.",
+        "Response": "Energy improved.",
+        "Teaching": "Educated on daily medication routine."
+      }
+    },
+    {
+      "patientID": "IM063",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with urinary retention, presenting with difficulty urinating.",
+        "Action": "Inserted Foley catheter.",
+        "Response": "Urine drained successfully.",
+        "Teaching": "Explained catheter care and infection prevention."
+      }
+    },
+    {
+      "patientID": "IM064",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with iron-deficiency anemia, presenting with fatigue, pallor.",
+        "Action": "Administered oral iron supplements.",
+        "Response": "Increased energy levels.",
+        "Teaching": "Instructed on iron-rich diet."
+      }
+    },
+    {
+      "patientID": "IM065",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with AFib, presenting with irregular heartbeat, palpitations.",
+        "Action": "Administered anticoagulants.",
+        "Response": "Heart rhythm controlled.",
+        "Teaching": "Taught medication adherence."
+      }
+    },
+    {
+      "patientID": "IM066",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with BPH, presenting with frequent urination, weak stream.",
+        "Action": "Started alpha-blocker medication.",
+        "Response": "Improved urinary flow.",
+        "Teaching": "Instructed on symptom tracking."
+      }
+    },
+    {
+      "patientID": "IM067",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with bronchitis, presenting with persistent cough, sputum.",
+        "Action": "Administered antibiotics and bronchodilators.",
+        "Response": "Reduced cough and clearer lungs.",
+        "Teaching": "Instructed on smoking cessation."
+      }
+    },
+    {
+      "patientID": "IM068",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with asthma, presenting with wheezing, chest tightness.",
+        "Action": "Given nebulized bronchodilator.",
+        "Response": "Symptoms improved.",
+        "Teaching": "Taught proper inhaler technique."
+      }
+    },
+    {
+      "patientID": "IM069",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with hypoglycemia, presenting with dizziness, sweating.",
+        "Action": "Given oral glucose.",
+        "Response": "Symptoms resolved.",
+        "Teaching": "Instructed on regular meals."
+      }
+    },
+    {
+      "patientID": "IM070",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with peptic ulcer, presenting with epigastric pain, nausea.",
+        "Action": "Administered proton pump inhibitor.",
+        "Response": "Pain reduced.",
+        "Teaching": "Explained importance of avoiding NSAIDs."
+      }
+    },
+    {
+      "patientID": "IM071",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with deep vein thrombosis, presenting with leg swelling, pain.",
+        "Action": "Administered anticoagulants.",
+        "Response": "Swelling reduced.",
+        "Teaching": "Taught leg elevation and mobility."
+      }
+    },
+    {
+      "patientID": "IM072",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with hypokalemia, presenting with muscle weakness, cramps.",
+        "Action": "Given potassium supplement.",
+        "Response": "Symptoms resolved.",
+        "Teaching": "Advised potassium-rich diet."
+      }
+    },
+    {
+      "patientID": "IM073",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with migraine, presenting with severe headache, photophobia.",
+        "Action": "Administered NSAIDs.",
+        "Response": "Pain relieved.",
+        "Teaching": "Advised on stress and trigger management."
+      }
+    },
+    {
+      "patientID": "IM074",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with CKD, presenting with increased creatinine, edema.",
+        "Action": "Adjusted medication and fluid intake.",
+        "Response": "Edema improved.",
+        "Teaching": "Educated on diet and nephrology follow-up."
+      }
+    },
+    {
+      "patientID": "IM075",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with pneumothorax, presenting with chest pain, dyspnea.",
+        "Action": "Inserted chest tube.",
+        "Response": "Breathing normalized.",
+        "Teaching": "Explained lung monitoring."
+      }
+    },
+    {
+      "patientID": "IM076",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with chronic liver disease, presenting with jaundice, nausea.",
+        "Action": "Administered lactulose and monitored liver enzymes.",
+        "Response": "Symptoms mildly improved.",
+        "Teaching": "Educated on avoiding alcohol and hepatotoxic drugs."
+      }
+    },
+    {
+      "patientID": "IM077",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with gastroenteritis, presenting with diarrhea, abdominal cramps.",
+        "Action": "Given oral rehydration salts.",
+        "Response": "Stools decreased.",
+        "Teaching": "Emphasized hygiene and fluid intake."
+      }
+    },
+    {
+      "patientID": "IM078",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with diverticulitis, presenting with abdominal pain, fever.",
+        "Action": "Administered IV antibiotics.",
+        "Response": "Pain reduced.",
+        "Teaching": "Advised high-fiber diet after recovery."
+      }
+    },
+    {
+      "patientID": "IM079",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with hyperlipidemia, presenting with high cholesterol, fatigue.",
+        "Action": "Administered statins.",
+        "Response": "Cholesterol slightly reduced.",
+        "Teaching": "Advised low-fat diet and regular exercise."
+      }
+    },
+    {
+      "patientID": "IM080",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old patient with hyponatremia, presenting with confusion, low sodium.",
+        "Action": "Administered hypertonic saline.",
+        "Response": "Mental status improved.",
+        "Teaching": "Taught signs of electrolyte imbalance."
+      }
+    },
+    {
+      "patientID": "IM081",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "52-year-old female with acute thyroiditis, presenting with neck pain, fever 38.6°C, and elevated ESR.",
+        "Action": "Administered NSAIDs and corticosteroids. Monitored thyroid function tests and vital signs.",
+        "Response": "Pain reduced by 50% and fever subsided within 24 hours.",
+        "Teaching": "Educated on thyroid storm warning signs and importance of endocrinology follow-up."
+      }
+    },
+    {
+      "patientID": "IM082",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "78-year-old male with Parkinson's disease experiencing increased tremors and bradykinesia.",
+        "Action": "Adjusted levodopa dosage and implemented fall prevention measures.",
+        "Response": "Mobility improved with reduced freezing episodes.",
+        "Teaching": "Demonstrated home exercise program and medication timing strategies."
+      }
+    },
+    {
+      "patientID": "IM083",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "48-year-old female with systemic lupus erythematosus (SLE), presenting with malar rash and joint swelling.",
+        "Action": "Initiated hydroxychloroquine therapy and UV protection protocol.",
+        "Response": "Skin lesions improved after 72 hours of treatment.",
+        "Teaching": "Educated on sun avoidance and regular rheumatology monitoring."
+      }
+    },
+    {
+      "patientID": "IM084",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "83-year-old male with dementia exhibiting sundowning syndrome and agitation.",
+        "Action": "Implemented environmental modifications and administered low-dose quetiapine.",
+        "Response": "Nighttime agitation reduced by 60%.",
+        "Teaching": "Taught caregiver communication techniques and sleep hygiene methods."
+      }
+    },
+    {
+      "patientID": "IM085",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "57-year-old female with myasthenia gravis experiencing ptosis and dysphagia.",
+        "Action": "Administered pyridostigmine and scheduled EMG testing.",
+        "Response": "Muscle strength improved within 4 hours of medication.",
+        "Teaching": "Instructed on myasthenic crisis recognition and energy conservation."
+      }
+    },
+    {
+      "patientID": "IM086",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "62-year-old male with acute gout attack, left great toe swollen with pain score 9/10.",
+        "Action": "Administered colchicine 0.5mg hourly and applied ice packs.",
+        "Response": "Pain reduced to 3/10 after 6 doses.",
+        "Teaching": "Advised low-purine diet and proper hydration strategies."
+      }
+    },
+    {
+      "patientID": "IM087",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "45-year-old female with multiple sclerosis presenting with optic neuritis symptoms.",
+        "Action": "Initiated IV methylprednisolone protocol and neurological monitoring.",
+        "Response": "Visual acuity improved from 20/200 to 20/80 after 3 days.",
+        "Teaching": "Explained disease-modifying therapy options and relapse management."
+      }
+    },
+    {
+      "patientID": "IM088",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "69-year-old male with esophageal varices and hematemesis episode.",
+        "Action": "Performed emergency band ligation and administered octreotide infusion.",
+        "Response": "Bleeding controlled with stable hemoglobin levels.",
+        "Teaching": "Emphasized alcohol abstinence and soft diet adherence."
+      }
+    },
+    {
+      "patientID": "IM089",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "34-year-old female with celiac disease presenting with chronic diarrhea and weight loss.",
+        "Action": "Implemented gluten-free diet and nutritional supplementation.",
+        "Response": "Bowel movements normalized within 1 week.",
+        "Teaching": "Educated on hidden gluten sources and cross-contamination prevention."
+      }
+    },
+    {
+      "patientID": "IM090",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "71-year-old male with mesothelioma presenting with pleuritic chest pain and dyspnea.",
+        "Action": "Performed therapeutic thoracentesis and initiated oxygen therapy.",
+        "Response": "Respiratory distress improved with 500ml fluid removal.",
+        "Teaching": "Explained palliative care options and symptom tracking methods."
+      }
+    },
+    {
+      "patientID": "IM091",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old female with Sjögren's syndrome complaining of severe dry eyes and oral ulcers.",
+        "Action": "Preserved artificial tears and pilocarpine. Arranged dental consultation.",
+        "Response": "Ocular discomfort reduced by 70%.",
+        "Teaching": "Demonstrated oral moisture retention techniques and eye care routine."
+      }
+    },
+    {
+      "patientID": "IM092",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "66-year-old male with hemochromatosis showing elevated ferritin levels (1800 ng/mL).",
+        "Action": "Initiated weekly phlebotomy sessions and hepatic function monitoring.",
+        "Response": "Ferritin decreased to 800 ng/mL after 4 sessions.",
+        "Teaching": "Educated on iron-restricted diet and family screening importance."
+      }
+    },
+    {
+      "patientID": "IM093",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "49-year-old female with sarcoidosis presenting with erythema nodosum and cough.",
+        "Action": "Started prednisone therapy and arranged chest CT scan.",
+        "Response": "Skin lesions resolved and pulmonary symptoms improved.",
+        "Teaching": "Explained medication tapering schedule and infection prevention."
+      }
+    },
+    {
+      "patientID": "IM094",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "77-year-old male with Waldenström macroglobulinemia exhibiting hyperviscosity symptoms.",
+        "Action": "Performed plasmapheresis and administered rituximab.",
+        "Response": "Neurological symptoms resolved post-procedure.",
+        "Teaching": "Advised regular serum viscosity monitoring and bleeding precautions."
+      }
+    },
+    {
+      "patientID": "IM095",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "63-year-old female with amyloidosis presenting with nephrotic syndrome and macroglossia.",
+        "Action": "Initiated diuretic therapy and renal protective measures.",
+        "Response": "Edema reduced by 50% with improved albumin levels.",
+        "Teaching": "Educated on proteinuria monitoring and cardiac involvement signs."
+      }
+    },
+    {
+      "patientID": "IM096",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "55-year-old male with Wegener's granulomatosis presenting with hemoptysis and sinusitis.",
+        "Action": "Administered cyclophosphamide and high-dose steroids.",
+        "Response": "Respiratory symptoms stabilized after 48 hours.",
+        "Teaching": "Explained importance of ANCA monitoring and dental hygiene."
+      }
+    },
+    {
+      "patientID": "IM097",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old female with polymyalgia rheumatica complaining of bilateral shoulder stiffness.",
+        "Action": "Initiated low-dose prednisone and physical therapy referral.",
+        "Response": "Morning stiffness duration reduced from 2 hours to 30 minutes.",
+        "Teaching": "Taught steroid side effect recognition and gradual tapering protocol."
+      }
+    },
+    {
+      "patientID": "IM098",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "72-year-old male with Goodpasture syndrome presenting with hematuria and dyspnea.",
+        "Action": "Performed plasma exchange and administered immunosuppressants.",
+        "Response": "Renal function stabilized with reduced anti-GBM antibodies.",
+        "Teaching": "Educated on pulmonary-renal crisis recognition and infection risks."
+      }
+    },
+    {
+      "patientID": "IM099",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "59-year-old female with eosinophilic esophagitis reporting dysphagia and food impaction.",
+        "Action": "Prescribed swallowed fluticasone and elimination diet trial.",
+        "Response": "Swallowing function improved after 1 week.",
+        "Teaching": "Demonstrated proper inhaler technique for esophageal application."
+      }
+    },
+    {
+      "patientID": "IM100",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "44-year-old male with Behçet's disease presenting with oral/genital ulcers and uveitis.",
+        "Action": "Initiated colchicine and topical corticosteroids.",
+        "Response": "Ulcer healing time reduced from 14 to 7 days.",
+        "Teaching": "Educated on pathergy phenomenon avoidance and ocular symptom monitoring."
+      }
+    },
+    {
+      "patientID": "IM101",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "19-year-old female with acute viral myocarditis post-COVID-19, presenting with chest pain, troponin I elevated (5.2 ng/mL), and palpitations.",
+        "Action": "Initiated IV immunoglobulin therapy and continuous cardiac monitoring.",
+        "Response": "Troponin levels decreased to 1.8 ng/mL within 48 hours.",
+        "Teaching": "Educated on activity restriction and signs of heart failure recurrence."
+      }
+    },
+    {
+      "patientID": "IM102",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "22-year-old male with type 1 diabetes, non-compliant with insulin, admitted with DKA (pH 7.18, glucose 480 mg/dL).",
+        "Action": "Administered insulin drip, electrolyte replacement, and hydration.",
+        "Response": "pH normalized to 7.35 after 12 hours.",
+        "Teaching": "Re-trained on insulin pump use and sick day management protocols."
+      }
+    },
+    {
+      "patientID": "IM103",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "24-year-old female with anorexia nervosa, BMI 15.3, hypokalemia (K+ 2.8 mEq/L), and orthostatic hypotension.",
+        "Action": "Initiated refeeding protocol and cardiac monitoring.",
+        "Response": "Potassium stabilized to 3.5 mEq/L after 72 hours.",
+        "Teaching": "Provided nutrition counseling and mental health referral."
+      }
+    },
+    {
+      "patientID": "IM104",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "28-year-old male with new-onset ulcerative colitis, presenting with bloody diarrhea (10+ episodes/day) and abdominal cramps.",
+        "Action": "Started mesalamine and prednisone therapy.",
+        "Response": "Bowel frequency reduced to 3 episodes/day after 5 days.",
+        "Teaching": "Explained disease course and importance of colonoscopy surveillance."
+      }
+    },
+    {
+      "patientID": "IM105",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "18-year-old female with lupus nephritis, proteinuria 3.5 g/day, and facial rash.",
+        "Action": "Initiated mycophenolate mofetil and hydroxychloroquine.",
+        "Response": "Proteinuria decreased to 1.2 g/day after 2 weeks.",
+        "Teaching": "Advised UV protection and pregnancy precautions."
+      }
+    },
+    {
+      "patientID": "IM106",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "25-year-old male with recreational drug overdose (MDMA), presenting with hyperthermia (40.1°C) and rhabdomyolysis (CK 15,000 U/L).",
+        "Action": "Cooling measures, aggressive IV hydration, and renal protection.",
+        "Response": "CK levels decreased to 2,000 U/L after 48 hours.",
+        "Teaching": "Substance abuse counseling and harm reduction strategies."
+      }
+    },
+    {
+      "patientID": "IM107",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "20-year-old female with POTS syndrome, heart rate 140 bpm upon standing, syncopal episodes.",
+        "Action": "Increased salt/fluid intake, compression stockings, and fludrocortisone.",
+        "Response": "Orthostatic symptoms reduced by 70%.",
+        "Teaching": "Taught counter-pressure maneuvers and activity pacing."
+      }
+    },
+    {
+      "patientID": "IM108",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "27-year-old male with acute HIV seroconversion, fever, and generalized lymphadenopathy.",
+        "Action": "Initiated ART and STI screening.",
+        "Response": "Viral load decreased from 500,000 to <50 copies/mL after 1 month.",
+        "Teaching": "Counseled on transmission prevention and adherence monitoring."
+      }
+    },
+    {
+      "patientID": "IM109",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "23-year-old female with acute pancreatitis from hypertriglyceridemia (TG 2,500 mg/dL).",
+        "Action": "Insulin infusion, plasmapheresis, and NPO status.",
+        "Response": "TG reduced to 400 mg/dL within 24 hours.",
+        "Teaching": "Educated on lipid-lowering diet and alcohol avoidance."
+      }
+    },
+    {
+      "patientID": "IM110",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "30-year-old male with acute psychotic episode and suspected synthetic cannabinoid use.",
+        "Action": "Administered benzodiazepines and antipsychotics. Monitored for neuroleptic malignant syndrome.",
+        "Response": "Agitation resolved after 6 hours.",
+        "Teaching": "Referred to addiction psychiatry and crisis intervention services."
+      }
+    },
+    {
+      "patientID": "IM111",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "92-year-old female with advanced dementia, PEG tube dependence, and aspiration pneumonia.",
+        "Action": "Antibiotics, chest physiotherapy, and head elevation.",
+        "Response": "C-reactive protein decreased from 120 to 30 mg/L.",
+        "Teaching": "Trained caregivers on feeding tube care and oral hygiene."
+      }
+    },
+    {
+      "patientID": "IM112",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "85-year-old male with end-stage heart failure, NYHA Class IV, and refractory edema.",
+        "Action": "Ultrafiltration therapy and palliative care consultation.",
+        "Response": "Weight reduced by 4 kg with improved dyspnea.",
+        "Teaching": "Discussed goals of care and advance directives."
+      }
+    },
+    {
+      "patientID": "IM113",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "88-year-old female with Parkinson's disease and severe dysphagia, risk of silent aspiration.",
+        "Action": "Modified diet to honey-thick liquids and speech therapy evaluation.",
+        "Response": "No further aspiration events observed.",
+        "Teaching": "Demonstrated chin-tuck maneuver during feeding."
+      }
+    },
+    {
+      "patientID": "IM114",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "90-year-old male with chronic osteomyelitis of the sacrum (stage IV pressure ulcer).",
+        "Action": "Surgical debridement and VAC therapy.",
+        "Response": "Wound size reduced by 40% after 2 weeks.",
+        "Teaching": "Taught repositioning schedule (q2h) and skin inspection techniques."
+      }
+    },
+    {
+      "patientID": "IM115",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "83-year-old female with polymyalgia rheumatica and steroid-induced osteoporosis (T-score -3.5).",
+        "Action": "Initiated zoledronic acid infusion and calcium/vitamin D supplementation.",
+        "Response": "Bone pain decreased by 50%.",
+        "Teaching": "Advised fall prevention and home safety modifications."
+      }
+    },
+    {
+      "patientID": "IM116",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "89-year-old male with recurrent Clostridioides difficile colitis (3rd episode).",
+        "Action": "Fecal microbiota transplantation (FMT) and probiotics.",
+        "Response": "Diarrhea resolved within 72 hours post-FMT.",
+        "Teaching": "Emphasized hand hygiene and antibiotic stewardship."
+      }
+    },
+    {
+      "patientID": "IM117",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "94-year-old female with senile purpura and warfarin-related GI bleeding (INR 6.8).",
+        "Action": "Vitamin K reversal and switched to DOAC therapy.",
+        "Response": "INR normalized to 2.3 within 24 hours.",
+        "Teaching": "Educated on bleeding precautions and dietary vitamin K consistency."
+      }
+    },
+    {
+      "patientID": "IM118",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "87-year-old male with Lewy body dementia and recurrent visual hallucinations.",
+        "Action": "Adjusted antipsychotics to avoid Parkinsonism exacerbation.",
+        "Response": "Hallucinations reduced without worsening rigidity.",
+        "Teaching": "Trained family on reality orientation techniques."
+      }
+    },
+    {
+      "patientID": "IM119",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "91-year-old female with geriatric failure to thrive (albumin 2.8 g/dL, weight loss 15% in 3 months).",
+        "Action": "Comprehensive geriatric assessment and appetite stimulants.",
+        "Response": "Oral intake increased by 30% with meal assistance.",
+        "Teaching": "Provided high-calorie diet plan and feeding strategies."
+      }
+    },
+    {
+      "patientID": "IM120",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "86-year-old male with advanced COPD on home oxygen, admitted with acute hypercapnic respiratory failure (pCO2 78 mmHg).",
+        "Action": "Non-invasive ventilation (BiPAP) and bronchodilator nebulization.",
+        "Response": "pCO2 decreased to 52 mmHg after 6 hours.",
+        "Teaching": "Re-trained on BiPAP use and energy conservation techniques."
+      }
+    },
+    {
+      "patientID": "IM121",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "52-year-old male diagnosed with thrombotic thrombocytopenic purpura (TTP). Exhibits petechiae, mild confusion, and low platelet count (38,000/µL).",
+        "Action": "Initiated plasma exchange therapy and administered high-dose corticosteroids per physician’s order. Monitored platelet count and neurological status closely.",
+        "Response": "Platelet count increased to 85,000/µL; confusion slightly resolved after two sessions of plasma exchange.",
+        "Teaching": "Explained the importance of regular follow-up for blood tests and early symptom recognition (e.g., sudden bruising, neurological changes)."
+      }
+    },
+    {
+      "patientID": "IM122",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "45-year-old female with primary adrenal insufficiency (Addison’s disease). Chief complaints: chronic fatigue, abdominal pain, hyperpigmentation.",
+        "Action": "Administered hydrocortisone replacement therapy and monitored electrolytes (Na, K) regularly.",
+        "Response": "Energy levels improved within 48 hours; electrolyte imbalance corrected gradually.",
+        "Teaching": "Instructed on stress dose steroid management and importance of wearing medical alert identification."
+      }
+    },
+    {
+      "patientID": "IM123",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "60-year-old female with Raynaud’s phenomenon, presenting with episodic cold-induced color changes in fingers and numbness.",
+        "Action": "Provided calcium channel blockers (nifedipine) to improve peripheral circulation and advised wearing warm gloves.",
+        "Response": "Episodes decreased in frequency and intensity after medication initiation.",
+        "Teaching": "Emphasized the need to avoid extreme cold and stress, and to promptly seek care if ulcers or persistent pain occur."
+      }
+    },
+    {
+      "patientID": "IM124",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "38-year-old male with Guillain-Barré syndrome (GBS), presenting with ascending muscle weakness and areflexia.",
+        "Action": "Initiated IV immunoglobulin (IVIG) and provided supportive respiratory care. Monitored vital capacity and oxygen saturation.",
+        "Response": "Gradual improvement in muscle strength noted over one week; no respiratory compromise observed.",
+        "Teaching": "Explained the importance of physical therapy for recovery and the potential for relapse signs."
+      }
+    },
+    {
+      "patientID": "IM125",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "56-year-old male with infective endocarditis, fever 39°C, new-onset murmur, positive blood cultures (Streptococcus viridans).",
+        "Action": "Administered high-dose IV penicillin and arranged echocardiogram. Monitored daily temperature and cardiac status.",
+        "Response": "Fever subsided after four days; echocardiogram showed slight improvement in vegetations.",
+        "Teaching": "Advised oral hygiene and prompt dental check-ups to prevent recurring bacteremia."
+      }
+    },
+    {
+      "patientID": "IM126",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "49-year-old female with Helicobacter pylori infection, complaining of epigastric pain and bloating.",
+        "Action": "Commenced triple therapy (PPI, clarithromycin, amoxicillin) for 14 days. Advised on appropriate meal timing.",
+        "Response": "Epigastric discomfort improved significantly after one week; waiting for follow-up stool antigen test.",
+        "Teaching": "Emphasized the importance of completing the full antibiotic course to reduce recurrence."
+      }
+    },
+    {
+      "patientID": "IM127",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "67-year-old male diagnosed with multiple myeloma, experiencing bone pain (lumbar region) and high serum protein levels.",
+        "Action": "Started chemotherapy regimen (bortezomib-based) and arranged pain management with mild opioids.",
+        "Response": "Pain intensity reduced from 7/10 to 4/10; patient tolerating chemotherapy with manageable side effects.",
+        "Teaching": "Instructed on fall prevention, activity modification, and the importance of regular blood tests (CBC, renal function)."
+      }
+    },
+    {
+      "patientID": "IM128",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "24-year-old male with Hemophilia A, presenting with spontaneous knee joint bleeding and swelling.",
+        "Action": "Administered factor VIII replacement. Applied cold compress and immobilized the affected joint.",
+        "Response": "Bleeding controlled within 24 hours; joint swelling reduced gradually.",
+        "Teaching": "Advised avoidance of high-impact sports and immediate reporting of any bleeding episodes."
+      }
+    },
+    {
+      "patientID": "IM129",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "30-year-old female with suspected meningococcal meningitis, high fever (39.5°C), severe headache, nuchal rigidity.",
+        "Action": "Initiated IV ceftriaxone after lumbar puncture. Implemented isolation precautions.",
+        "Response": "Fever and neck stiffness improved within 48 hours. Blood culture pending.",
+        "Teaching": "Educated on transmission risk and close contact prophylaxis measures."
+      }
+    },
+    {
+      "patientID": "IM130",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "40-year-old male immigrant with neurocysticercosis, presenting with seizures and multiple brain lesions on MRI.",
+        "Action": "Started albendazole and steroids to reduce inflammatory response. Maintained seizure precautions.",
+        "Response": "Seizure frequency decreased significantly; awaiting imaging follow-up for lesion regression.",
+        "Teaching": "Emphasized hygiene and proper cooking of pork to prevent reinfection."
+      }
+    },
+    {
+      "patientID": "IM131",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "28-year-old male returning from tropical region with intermittent fever, chills, and splenomegaly. Rapid malaria test positive (P. falciparum).",
+        "Action": "Administered IV artesunate and supportive fluids. Monitored parasitemia level daily.",
+        "Response": "Fever bouts subsided, parasitemia decreased from 5% to 1% after three days.",
+        "Teaching": "Reinforced use of mosquito repellents, prophylaxis for future travel, and follow-up blood smears."
+      }
+    },
+    {
+      "patientID": "IM132",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "54-year-old female with acute onset chest pain and dyspnea. D-dimer elevated, CT pulmonary angiogram confirms pulmonary embolism.",
+        "Action": "Started low molecular weight heparin (LMWH) and oxygen supplementation. Monitored oxygen saturation and vital signs closely.",
+        "Response": "Shortness of breath improved, O₂ saturation maintained above 95%.",
+        "Teaching": "Emphasized importance of anticoagulant adherence and avoidance of prolonged immobility."
+      }
+    },
+    {
+      "patientID": "IM133",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "50-year-old male with newly diagnosed sarcoidosis, presenting with bilateral hilar lymphadenopathy and uveitis.",
+        "Action": "Initiated low-dose corticosteroids and arranged ophthalmology consultation.",
+        "Response": "Eye inflammation decreased, lung function stable upon follow-up.",
+        "Teaching": "Encouraged patient to recognize exacerbation signs (visual changes, respiratory distress) and attend regular follow-ups."
+      }
+    },
+    {
+      "patientID": "IM134",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "32-year-old female with hemophagocytic lymphohistiocytosis (HLH): high ferritin (12,000 ng/mL), cytopenias, fever.",
+        "Action": "Started immunosuppressive therapy (etoposide and dexamethasone) under hematology guidance.",
+        "Response": "Fever subsided; ferritin trending down to 4,000 ng/mL within one week.",
+        "Teaching": "Explained risk of infection during immunosuppression and the need for close lab monitoring."
+      }
+    },
+    {
+      "patientID": "IM135",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "64-year-old female with Takotsubo cardiomyopathy (stress-induced), chest pain with normal coronary arteries on angiogram.",
+        "Action": "Provided supportive therapy: beta-blockers and anxiolytics. Monitored ECG for arrhythmias.",
+        "Response": "Chest pain improved over 48 hours, repeat echo showed better left ventricular function.",
+        "Teaching": "Encouraged stress management techniques and follow-up echocardiograms for cardiac function."
+      }
+    },
+    {
+      "patientID": "IM136",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "25-year-old male with infectious mononucleosis, sore throat, cervical lymphadenopathy, positive EBV serology.",
+        "Action": "Advised rest, hydration, and analgesics for throat pain. Monitored for splenomegaly.",
+        "Response": "Throat pain diminished after one week; no complications reported.",
+        "Teaching": "Explained need to avoid contact sports (risk of splenic rupture) and get adequate rest."
+      }
+    },
+    {
+      "patientID": "IM137",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "53-year-old male with Guillain-Barré syndrome involving bilateral facial nerve palsy and difficulty swallowing.",
+        "Action": "Provided IVIG and assisted with swallowing exercises, ensured aspiration precautions.",
+        "Response": "Gradual recovery of facial movements noted after four days; swallowing improved with therapy.",
+        "Teaching": "Highlighted potential relapse signs, importance of respiratory monitoring, and continuation of rehabilitation."
+      }
+    },
+    {
+      "patientID": "IM138",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "48-year-old female with hypophosphatemia (serum phosphate 1.8 mg/dL), reporting muscle weakness and confusion.",
+        "Action": "Administered IV phosphate supplement and monitored electrolytes (Ca, Mg) to prevent complications.",
+        "Response": "Phosphate level increased to 2.8 mg/dL, confusion resolved.",
+        "Teaching": "Educated on dietary sources of phosphate and importance of regular lab checks if symptoms recur."
+      }
+    },
+    {
+      "patientID": "IM139",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male with pernicious anemia, presenting with megaloblastic anemia (Hb 8.2 g/dL) and mild neuropathy (tingling in feet).",
+        "Action": "Administered intramuscular vitamin B12 injections and arranged neurological evaluation.",
+        "Response": "Hemoglobin improved to 10 g/dL, tingling gradually decreased.",
+        "Teaching": "Emphasized need for lifelong B12 supplementation and early reporting of neuropathic symptoms."
+      }
+    },
+    {
+      "patientID": "IM140",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "62-year-old female with porphyria cutanea tarda, presenting with photosensitivity and blistering lesions on sun-exposed areas.",
+        "Action": "Advised strict sun protection measures, initiated phlebotomy sessions to reduce iron stores.",
+        "Response": "Blisters healed over two weeks, new lesions reduced.",
+        "Teaching": "Explained avoidance of alcohol, estrogen, and excessive sun exposure to prevent flare-ups."
+      }
+    },
+    {
+      "patientID": "IM141",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "67-year-old patient experiencing high blood sugar (265 mg/dL), frequent urination, thirst, and fatigue.",
+        "Action": "Administered oral hypoglycemics, encouraged hydration, monitored glucose levels.",
+        "Response": "Blood sugar decreased to 180 mg/dL; patient's fatigue improved.",
+        "Teaching": "Educated patient on diabetes management and diet."
+      }
+    },
+    {
+      "patientID": "IM142",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old female with elevated blood glucose (270 mg/dL), frequent urination, fatigue, and thirst.",
+        "Action": "Provided insulin therapy, managed fluid intake.",
+        "Response": "Glucose stabilized to 175 mg/dL, symptoms alleviated.",
+        "Teaching": "Patient instructed on diabetes self-care and regular fluid intake."
+      }
+    },
+    {
+      "patientID": "IM143",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male with high blood sugar (260 mg/dL) and elevated blood pressure (162/98 mmHg), frequent urination, dizziness.",
+        "Action": "Administered oral hypoglycemic medication and antihypertensive drugs; monitored vital signs closely.",
+        "Response": "Blood glucose improved to 180 mg/dL, BP reduced to 140/85 mmHg.",
+        "Teaching": "Educated patient about diabetes and hypertension management.",
+        "Abnormalities": "hypertension"
+      }
+    },
+    {
+      "patientID": "IM144",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "69-year-old female patient experiencing blood glucose of 275 mg/dL and blood pressure of 160/100 mmHg, complains of fatigue and thirst.",
+        "Action": "Initiated insulin therapy, administered antihypertensive medications.",
+        "Response": "Glucose decreased to 185 mg/dL, blood pressure decreased to 138/88 mmHg.",
+        "Teaching": "Provided dietary and medication adherence education.",
+        "Abnormalities": "hypertension"
+      }
+    },
+    {
+      "patientID": "IM145",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "71-year-old diabetic patient with elevated glucose (265 mg/dL), high blood pressure (161/99 mmHg), frequent urination, fatigue.",
+        "Action": "Administered antihypertensive and insulin medications.",
+        "Response": "Blood sugar reduced to 170 mg/dL, blood pressure lowered to 140/85 mmHg.",
+        "Teaching": "Patient educated on hypertension and diabetes control measures.",
+        "Abnormalities": "hypertension"
+      }
+    },
+    {
+      "patientID": "IM146",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "Patient with mild pneumonia, now presenting elevated blood pressure (160/100 mmHg) and mild dizziness.",
+        "Action": "Administered antihypertensive medication, continued monitoring of respiratory status and temperature.",
+        "Response": "BP decreased to 140/85 mmHg, dizziness improved slightly.",
+        "Teaching": "Reinforced low-sodium diet advice, instructed patient to report any worsening headache or chest discomfort."
+              }
+    },
+    {
+      "patientID": "IM147",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old patient with diabetes presenting fever (38.6°C), high blood sugar (270 mg/dL), and generalized fatigue.",
+        "Action": "Administered insulin, antipyretics, and intravenous fluids; monitored closely.",
+        "Response": "Temperature decreased to 37.0°C, glucose improved to 180 mg/dL.",
+        "Teaching": "Advised patient on diabetic care, hydration, and symptom monitoring.",
+        "Abnormalities": "fever"
+      }
+    },
+    {
+      "patientID": "IM148",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old female diabetic patient presenting fever (38.6°C), blood glucose at 265 mg/dL, frequent urination.",
+        "Action": "Provided antipyretic medications, managed blood glucose, maintained hydration.",
+        "Response": "Patient's fever reduced to 37.1°C, blood glucose stabilized at 175 mg/dL.",
+        "Teaching": "Educated patient on diabetic diet, fever management, and regular fluid intake.",
+        "Abnormalities": "fever"
+      }
+    },
+    {
+      "patientID": "IM149",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "67-year-old male experiencing fever (38.6°C), fatigue, thirst, and elevated blood glucose (260 mg/dL).",
+        "Action": "Administered insulin therapy, antipyretics, provided fluid management.",
+        "Response": "Blood glucose improved to 175 mg/dL, fever subsided to normal.",
+        "Teaching": "Patient instructed on hydration, fever management, and diabetes control.",
+        "Abnormalities": "fever"
+      }
+    },
+    {
+      "patientID": "IM150",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "Patient with pneumonia, fever increased to 39°C, feeling more fatigued. Blood pressure remains stable.",
+        "Action": "Administered antipyretics, evaluated for possible antibiotic adjustment, monitored respiratory rate.",
+        "Response": "Temperature lowered to 38.2°C, patient felt slightly better.",
+        "Teaching": "Encouraged rest, adequate fluid intake, and to promptly report any further increase in fever or difficulty breathing."
+      }
+    },
+    {
+      "patientID": "IM151",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "54-year-old male with diabetic neuropathy, HbA1c 8.9%, complaining of bilateral foot numbness and burning pain.",
+        "Action": "Initiated gabapentin therapy and foot care protocol. Adjusted insulin regimen.",
+        "Response": "Pain score reduced from 7/10 to 3/10 after 72 hours.",
+        "Teaching": "Demonstrated daily foot inspection techniques and proper footwear selection."
+      }
+    },
+    {
+      "patientID": "IM152",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "78-year-old female with systolic heart failure (EF 35%), presenting with orthopnea and weight gain of 3kg in 3 days.",
+        "Action": "Doubled diuretic dose per protocol and implemented fluid restriction.",
+        "Response": "Urine output increased by 1.5L/day, weight returned to baseline.",
+        "Teaching": "Taught daily weight monitoring and sodium tracking methods."
+      }
+    },
+    {
+      "patientID": "IM153",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "32-year-old female with autoimmune hepatitis, ALT 250 U/L, positive ANA. Complains of right upper quadrant pain.",
+        "Action": "Started prednisone 40mg daily and azathioprine. Monitored LFTs.",
+        "Response": "ALT decreased to 120 U/L after 1 week.",
+        "Teaching": "Explained importance of medication adherence and alcohol avoidance."
+      }
+    },
+    {
+      "patientID": "IM154",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "89-year-old male with vascular dementia, recurrent UTIs, and catheter-associated bacteriuria.",
+        "Action": "Changed Foley catheter and initiated nitrofurantoin prophylaxis.",
+        "Response": "Urine culture cleared after 5 days.",
+        "Teaching": "Trained caregivers on proper catheter care techniques."
+      }
+    },
+    {
+      "patientID": "IM155",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "47-year-old male with obstructive sleep apnea, AHI 35, BMI 38. Daytime somnolence noted.",
+        "Action": "Initiated CPAP therapy and weight loss counseling.",
+        "Response": "Daytime alertness improved after 3 nights of CPAP use.",
+        "Teaching": "Demonstrated CPAP cleaning and adjustment procedures."
+      }
+    },
+    {
+      "patientID": "IM156",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "63-year-old female with diabetic retinopathy, HbA1c 9.5%, reports blurred vision.",
+        "Action": "Arranged urgent ophthalmology consult and intensified glycemic control.",
+        "Response": "Laser treatment scheduled, glucose variability reduced.",
+        "Teaching": "Emphasized tight glucose control for vision preservation."
+      }
+    },
+    {
+      "patientID": "IM157",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "41-year-old male with alcoholic hepatitis, MELD score 19, ascites present.",
+        "Action": "Initiated diuretics and lactulose. Monitored mental status.",
+        "Response": "Abdominal girth reduced by 5cm, no encephalopathy signs.",
+        "Teaching": "Counseled on complete alcohol cessation and nutrition."
+      }
+    },
+    {
+      "patientID": "IM158",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "92-year-old female with senile osteoporosis, T-score -3.8, sustained vertebral compression fracture.",
+        "Action": "Started teriparatide injections and calcium/vitamin D supplementation.",
+        "Response": "Back pain improved from 8/10 to 4/10 on VAS.",
+        "Teaching": "Taught safe transfer techniques and home safety assessment."
+      }
+    },
+    {
+      "patientID": "IM159",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "29-year-old female with cystic fibrosis, FEV1 45% predicted, Pseudomonas aeruginosa colonization.",
+        "Action": "Initiated inhaled tobramycin and airway clearance therapy.",
+        "Response": "Sputum production decreased by 30%.",
+        "Teaching": "Trained on advanced airway clearance devices."
+      }
+    },
+    {
+      "patientID": "IM160",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old male with Barrett's esophagus, new dysphagia and 5kg weight loss.",
+        "Action": "Performed EGD with biopsy. Started high-dose PPI.",
+        "Response": "Dysphagia improved to liquids, awaiting pathology.",
+        "Teaching": "Advised small frequent meals and head elevation."
+      }
+    },
+    {
+      "patientID": "IM161",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "55-year-old female with primary biliary cholangitis, ALP 450 U/L, pruritus.",
+        "Action": "Started ursodeoxycholic acid and cholestyramine for itching.",
+        "Response": "ALP decreased to 320 U/L after 2 weeks.",
+        "Teaching": "Explained disease progression monitoring needs."
+      }
+    },
+    {
+      "patientID": "IM162",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "84-year-old male with recurrent aspiration pneumonia, dysphagia confirmed on VFSS.",
+        "Action": "Modified diet to nectar-thick liquids. Initiated swallowing therapy.",
+        "Response": "No further aspiration events in 72 hours.",
+        "Teaching": "Trained caregivers on safe feeding techniques."
+      }
+    },
+    {
+      "patientID": "IM163",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "37-year-old male with ankylosing spondylitis, BASDAI score 6.8, limited spinal mobility.",
+        "Action": "Initiated TNF-alpha inhibitor therapy and physiotherapy.",
+        "Response": "Morning stiffness reduced from 2 hours to 45 minutes.",
+        "Teaching": "Taught posture exercises and medication self-injection."
+      }
+    },
+    {
+      "patientID": "IM164",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "73-year-old female with microscopic polyangiitis, creatinine 2.4 mg/dL, hematuria.",
+        "Action": "Started cyclophosphamide and high-dose steroids. Monitored renal function.",
+        "Response": "Creatinine stabilized at 2.2 mg/dL after 1 week.",
+        "Teaching": "Explained infection precautions during immunosuppression."
+      }
+    },
+    {
+      "patientID": "IM165",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "59-year-old male with hepatic encephalopathy, asterixis present, ammonia 120 µmol/L.",
+        "Action": "Administered lactulose enema and rifaximin. Protein-restricted diet.",
+        "Response": "Mental status cleared within 24 hours.",
+        "Teaching": "Educated on early encephalopathy signs recognition."
+      }
+    },
+    {
+      "patientID": "IM166",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "44-year-old female with scleroderma, digital ulcers present, Raynaud's phenomenon.",
+        "Action": "Started iloprost infusion and calcium channel blockers.",
+        "Response": "Ulcer healing initiated after 1 week.",
+        "Teaching": "Taught cold protection measures and ulcer care."
+      }
+    },
+    {
+      "patientID": "IM167",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "81-year-old male with Parkinson's disease psychosis, visual hallucinations and paranoia.",
+        "Action": "Initiated quetiapine and environmental modifications.",
+        "Response": "Hallucinations reduced by 70% within 48 hours.",
+        "Teaching": "Trained family on non-pharmacological management."
+      }
+    },
+    {
+      "patientID": "IM168",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "50-year-old male with acute intermittent porphyria, severe abdominal pain and hypertension.",
+        "Action": "Administered hemin infusion and glucose loading.",
+        "Response": "Pain resolved within 36 hours.",
+        "Teaching": "Educated on triggering factor avoidance."
+      }
+    },
+    {
+      "patientID": "IM169",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "66-year-old female with giant cell arteritis, ESR 85 mm/hr, temporal headache.",
+        "Action": "Started prednisone 60mg daily and bone protection.",
+        "Response": "Headache resolved within 48 hours.",
+        "Teaching": "Explained importance of urgent vision symptom reporting."
+      }
+    },
+    {
+      "patientID": "IM170",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old male with bronchiectasis, daily purulent sputum production, FEV1 55%.",
+        "Action": "Initiated airway clearance regimen and rotating antibiotics.",
+        "Response": "Sputum volume decreased by 50%.",
+        "Teaching": "Trained on oscillatory PEP device use."
+      }
+    },
+    {
+      "patientID": "IM171",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "75-year-old male with cough productive of yellow sputum, fever (38.8°C), shortness of breath, and crackles auscultated in the right lower lobe. SpO2 91% on RA.",
+        "Action": "Administered supplemental O2 via nasal cannula at 3L/min, started IV antibiotics (Ceftriaxone & Azithromycin) per protocol, obtained blood cultures and sputum sample, administered antipyretics.",
+        "Response": "SpO2 improved to 95% on O2, temperature decreased to 37.5°C, patient reports slightly less dyspnea.",
+        "Teaching": "Educated on importance of incentive spirometry, completing full course of antibiotics, and hydration.",
+        "Abnormalities": "Pneumonia, Hypoxia"
+      }
+    },
+    {
+      "patientID": "IM172",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old female with known CHF presents with worsening dyspnea on exertion, 3+ pitting edema in lower extremities, orthopnea, and weight gain of 5kg in 1 week. Bibasilar crackles noted.",
+        "Action": "Administered IV furosemide, initiated fluid restriction, placed on telemetry monitoring, monitored intake/output closely, daily weights.",
+        "Response": "Urine output increased significantly, patient reports improved breathing, edema decreased to 1+, weight down 2kg.",
+        "Teaching": "Reinforced low sodium diet, medication compliance (diuretics, ACE-I), daily weight monitoring, recognizing signs of worsening HF.",
+        "Abnormalities": "Acute decompensated heart failure (ADHF)"
+      }
+    },
+    {
+      "patientID": "IM173",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "24-year-old female with Type 1 Diabetes presents with nausea, vomiting, abdominal pain, Kussmaul respirations. Blood glucose >500 mg/dL, positive serum ketones, pH 7.15.",
+        "Action": "Initiated IV fluid resuscitation (Normal Saline), started insulin infusion per DKA protocol, monitored electrolytes (especially K+) and blood glucose hourly, placed NPO.",
+        "Response": "Blood glucose decreased to 250 mg/dL, anion gap closing, pH improved to 7.30. Patient reports less nausea.",
+        "Teaching": "Educated on sick day management for diabetes, importance of insulin adherence, recognizing DKA symptoms.",
+        "Abnormalities": "Diabetic Ketoacidosis (DKA)"
+      }
+    },
+    {
+      "patientID": "IM174",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "49-year-old male presents with rapidly spreading erythema, warmth, swelling, and tenderness on the left lower leg. Fever (38.5°C), chills noted. Borders marked.",
+        "Action": "Started IV vancomycin (pending cultures, concern for MRSA), elevated affected limb, administered analgesics for pain, monitored vital signs and spread of erythema.",
+        "Response": "Erythema stopped advancing beyond marked borders, swelling slightly decreased, temperature normalized. Pain improving.",
+        "Teaching": "Instructed on keeping area clean and dry, importance of limb elevation, completing antibiotic course, signs of worsening infection.",
+        "Abnormalities": "Cellulitis"
+      }
+    },
+    {
+      "patientID": "IM175",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old male with severe COPD presents with increased wheezing, shortness of breath, increased sputum production (purulent), and use of accessory muscles. SpO2 89% on home O2 (2L/min).",
+        "Action": "Increased O2 to maintain SpO2 90-92%, administered scheduled nebulized bronchodilators (albuterol/ipratropium), started systemic corticosteroids (IV methylprednisolone), initiated antibiotics (doxycycline).",
+        "Response": "Wheezing decreased, work of breathing improved, SpO2 maintained at 91% on 3L O2, patient able to clear secretions more effectively.",
+        "Teaching": "Reviewed proper inhaler technique, pursed-lip breathing, energy conservation techniques, smoking cessation resources offered.",
+        "Abnormalities": "COPD exacerbation, Hypoxia"
+      }
+    },
+    {
+      "patientID": "IM176",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "81-year-old female from nursing home presents with altered mental status, fever (39.0°C), tachycardia (HR 115), hypotension (BP 90/50), and suprapubic tenderness. Urinalysis suggestive of UTI.",
+        "Action": "Initiated sepsis protocol: obtained blood cultures, lactate level; administered IV fluid bolus (30ml/kg); started broad-spectrum IV antibiotics (piperacillin-tazobactam); inserted Foley catheter.",
+        "Response": "BP improved to 110/70 after fluids, HR decreased to 95, patient becoming more alert. Lactate level decreasing.",
+        "Teaching": "Educated family on sepsis, importance of hydration and hygiene (related to UTI prevention), antibiotic therapy.",
+        "Abnormalities": "Urosepsis, Hypotension, Altered Mental Status"
+      }
+    },
+    {
+      "patientID": "IM177",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "62-year-old male with known CKD Stage 3 presents with decreased urine output, fatigue, and nausea. Creatinine elevated to 4.5 mg/dL from baseline of 2.0 mg/dL. Recent history of NSAID use for knee pain.",
+        "Action": "Discontinued NSAIDs, administered cautious IV fluids (monitoring for overload), reviewed medication list for nephrotoxins, monitored electrolytes and renal function daily, strict I/O.",
+        "Response": "Urine output increased, creatinine decreased to 3.5 mg/dL over 48 hours. Nausea resolved.",
+        "Teaching": "Educated on avoiding NSAIDs and other nephrotoxic agents, importance of hydration, recognizing signs of worsening kidney function.",
+        "Abnormalities": "Acute Kidney Injury (AKI), Chronic Kidney Disease (CKD)"
+      }
+    },
+    {
+      "patientID": "IM178",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "70-year-old male presents with melena for 2 days and one episode of coffee-ground emesis. Reports dizziness. Hb 7.5 g/dL (baseline 12.0 g/dL). BP 100/60, HR 105.",
+        "Action": "Placed 2 large-bore IVs, started IV fluid resuscitation, initiated IV proton pump inhibitor (pantoprazole drip), ordered type and crossmatch, transfused 1 unit PRBCs, consulted GI for EGD.",
+        "Response": "Hb increased to 8.8 g/dL post-transfusion, BP stabilized to 115/70, HR decreased to 90. No further emesis or melena reported.",
+        "Teaching": "Educated on signs/symptoms of continued bleeding, purpose of PPI, NPO status prior to EGD.",
+        "Abnormalities": "Upper GI Bleed (UGIB), Anemia, Hypotension"
+      }
+    },
+    {
+      "patientID": "IM179",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "55-year-old female presents with headache, confusion, and gait instability. Sodium level 118 mEq/L. History of using HCTZ.",
+        "Action": "Discontinued HCTZ, initiated fluid restriction (1L/day), frequent neurological checks, monitored serum sodium and osmolality closely, assessed volume status.",
+        "Response": "Sodium level slowly increased to 124 mEq/L over 48 hours. Confusion improving, gait steadier.",
+        "Teaching": "Educated on the cause of hyponatremia (likely HCTZ), importance of fluid restriction, signs/symptoms of worsening hyponatremia, need for follow-up labs.",
+        "Abnormalities": "Hyponatremia, Confusion"
+      }
+    },
+    {
+      "patientID": "IM180",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "60-year-old male presents with severe headache and BP 210/120 mmHg in clinic. Reports non-adherence to home medications (Amlodipine, Lisinopril).",
+        "Action": "Administered IV labetalol pushes, transitioned to oral antihypertensives (restarted home meds + added clonidine PRN), monitored BP frequently, performed basic neurological exam.",
+        "Response": "BP gradually reduced to 160/95 mmHg over 6 hours. Patient reports headache improvement. Neurological exam non-focal.",
+        "Teaching": "Reinforced importance of medication adherence for hypertension control, discussed potential side effects, educated on lifestyle modifications (low salt diet, exercise), scheduled close follow-up.",
+        "Abnormalities": "Hypertensive Urgency, Medication Non-adherence"
+      }
+    },
+    {
+      "patientID": "SU201",
+      "ward": "Surgical Ward",
+      "DART": {
+        "Data": "25-year-old female, post-appendectomy Day 1, reporting abdominal pain rated 8/10, guarding abdomen.",
+        "Action": "Administered IV morphine sulfate per PCA protocol, assessed wound site, encouraged splinting with movement.",
+        "Response": "Patient reports pain reduced to 4/10, able to ambulate short distance with assistance.",
+        "Teaching": "Educated on PCA use, importance of early ambulation, signs of wound infection.",
+        "Abnormalities": "Post-operative pain"
+      }
+    },
+    {
+      "patientID": "PE305",
+      "ward": "Pediatric Ward",
+      "DART": {
+        "Data": "8-year-old boy with history of asthma presenting with wheezing, shortness of breath, SpO2 90% on room air.",
+        "Action": "Administered nebulized albuterol and ipratropium, started supplemental oxygen via nasal cannula at 2L/min, monitored respiratory status.",
+        "Response": "Wheezing decreased, SpO2 improved to 95% on O2, respiratory rate normalized.",
+        "Teaching": "Instructed patient and parents on proper inhaler technique, asthma action plan reviewed.",
+        "Abnormalities": "Hypoxia, Wheezing"
+      }
+    },
+    {
+      "patientID": "CA410",
+      "ward": "Cardiology Unit",
+      "DART": {
+        "Data": "78-year-old male admitted with palpitations and dizziness. ECG shows atrial fibrillation with rapid ventricular response (HR 140 bpm).",
+        "Action": "Administered IV diltiazem bolus followed by infusion, placed on continuous cardiac monitoring, initiated anticoagulation per protocol.",
+        "Response": "Heart rate decreased to 85 bpm, rhythm remains atrial fibrillation but rate controlled. Patient reports dizziness resolved.",
+        "Teaching": "Educated on atrial fibrillation, purpose of anticoagulation, signs/symptoms of stroke.",
+        "Abnormalities": "Atrial fibrillation with RVR"
+      }
+    },
+    {
+      "patientID": "NE515",
+      "ward": "Neurology Ward",
+      "DART": {
+        "Data": "45-year-old female with known epilepsy experienced a tonic-clonic seizure lasting 2 minutes. Currently postictal, drowsy but arousable.",
+        "Action": "Ensured patient safety during seizure, administered IV lorazepam, maintained airway, monitored vital signs and neurological status.",
+        "Response": "No further seizure activity observed. Patient gradually becoming more alert.",
+        "Teaching": "Reinforced medication adherence, seizure precautions, importance of follow-up with neurologist.",
+        "Abnormalities": "Seizure activity"
+      }
+    },
+    {
+      "patientID": "OR620",
+      "ward": "Orthopedic Ward",
+      "DART": {
+        "Data": "16-year-old male sustained closed fracture of the right tibia during soccer game. Reports severe pain (9/10), swelling noted.",
+        "Action": "Applied posterior splint, elevated leg, administered IV ketorolac for pain, neurovascular checks performed q1h.",
+        "Response": "Pain decreased to 5/10, distal pulses palpable, capillary refill <2 sec, sensation intact.",
+        "Teaching": "Instructed on splint care, weight-bearing restrictions, signs of compartment syndrome.",
+        "Abnormalities": "Tibial fracture"
+      }
+    },
+    {
+      "patientID": "OB725",
+      "ward": "Obstetrics Unit",
+      "DART": {
+        "Data": "32-year-old female, 36 weeks gestation, presents with headache, blurred vision, BP 165/110 mmHg, proteinuria +2.",
+        "Action": "Initiated seizure precautions, administered IV magnesium sulfate per protocol, continuous fetal monitoring, frequent BP monitoring.",
+        "Response": "BP decreased to 150/95 mmHg, patient reports slight improvement in headache, no seizures observed, fetal heart rate reassuring.",
+        "Teaching": "Educated patient on preeclampsia, rationale for magnesium sulfate, importance of reporting worsening symptoms.",
+        "Abnormalities": "Severe preeclampsia"
+      }
+    },
+    {
+      "patientID": "PS830",
+      "ward": "Psychiatric Unit",
+      "DART": {
+        "Data": "22-year-old male brought in by family due to auditory hallucinations, paranoid delusions, and disorganized speech for 3 days.",
+        "Action": "Provided low-stimulus environment, administered scheduled olanzapine, established therapeutic rapport, monitored for safety.",
+        "Response": "Patient appears calmer, less agitated, still guarded but able to engage in brief conversation.",
+        "Teaching": "Oriented patient to unit routines, explained purpose of medication (briefly), reinforced safety.",
+        "Abnormalities": "Acute psychosis"
+      }
+    },
+    {
+      "patientID": "ON935",
+      "ward": "Oncology Ward",
+      "DART": {
+        "Data": "58-year-old female, receiving chemotherapy cycle 3, experiencing severe nausea and vomiting (5 episodes in 4 hours), poor oral intake.",
+        "Action": "Administered IV ondansetron and dexamethasone, initiated IV hydration (Normal Saline at 125 ml/hr), provided anti-emetic mouthwash.",
+        "Response": "No further vomiting episodes in the last 2 hours. Patient sipping small amounts of clear liquids.",
+        "Teaching": "Educated on anti-emetic schedule, small frequent meals, signs of dehydration.",
+        "Abnormalities": "Chemotherapy-induced nausea and vomiting (CINV)"
+      }
+    },
+    {
+      "patientID": "ER1040",
+      "ward": "Emergency Department",
+      "DART": {
+        "Data": "30-year-old male driver in motor vehicle collision, complaining of chest pain and difficulty breathing. Paradoxical chest wall movement noted on right side, RR 30, SpO2 88% RA.",
+        "Action": "Applied high-flow oxygen via non-rebreather mask, performed primary survey, inserted chest tube on right side, obtained trauma labs and imaging (CXR, CT).",
+        "Response": "SpO2 improved to 96% on O2, respiratory effort less labored, chest tube draining air and blood. Patient stabilized for transfer to ICU.",
+        "Teaching": "Explained procedures performed (briefly due to acuity), reinforced need for continued monitoring.",
+        "Abnormalities": "Flail chest, Hemopneumothorax"
+      }
+    },
+    {
+      "patientID": "OR1145",
+      "ward": "Orthopedic Ward",
+      "DART": {
+        "Data": "82-year-old female admitted after a fall at home. X-ray confirms right femoral neck fracture. Complains of severe hip pain (10/10), leg shortened and externally rotated.",
+        "Action": "Administered IV hydromorphone for pain, placed Buck's traction, maintained alignment, frequent neurovascular checks, pre-operative labs drawn.",
+        "Response": "Patient reports pain reduced to 6/10, able to tolerate traction. Neurovascular status intact distally.",
+        "Teaching": "Explained purpose of traction, pre-operative instructions (NPO), importance of reporting increased pain or numbness.",
+        "Abnormalities": "Femoral neck fracture"
+      }
+    },
+    {
+      "patientID": "IM181",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "50-year-old male presenting with episodic chest discomfort, not related to exertion. ECG normal, stress test inconclusive.",
+        "Action": "Initiated nitrates and beta-blockers trial, arranged for further diagnostic workup including coronary microvascular function test.",
+        "Response": "Chest discomfort improved with medical therapy; patient scheduled for follow-up evaluation.",
+        "Teaching": "Advised on lifestyle modifications and maintaining a symptom diary."
+      }
+    },
+    {
+      "patientID": "IM182",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "40-year-old female presenting with sudden onset palpitations and rapid heart rate. ECG confirmed PSVT.",
+        "Action": "Performed carotid sinus massage and administered IV adenosine, which terminated the arrhythmia.",
+        "Response": "Heart rate returned to normal sinus rhythm; symptoms resolved.",
+        "Teaching": "Instructed on warning signs and when to seek emergency care for recurrent episodes."
+      }
+    },
+    {
+      "patientID": "IM183",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "35-year-old male presenting with abdominal pain, weight loss, and elevated serum IgG4 levels. Imaging reveals pancreatic enlargement.",
+        "Action": "Referred to gastroenterology for further evaluation and performed biopsy for IgG4-related disease.",
+        "Response": "Preliminary results suggest IgG4-related pancreatitis; patient awaiting definitive diagnosis.",
+        "Teaching": "Educated on the importance of follow-up and potential treatment options including steroids."
+      }
+    },
+    {
+      "patientID": "IM184",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "68-year-old male with acute onset left lower extremity pain and pallor, diminished pulses, suspected arterial embolism.",
+        "Action": "Urgently referred for vascular imaging and started anticoagulation therapy.",
+        "Response": "Improvement in limb perfusion noted after intervention; pulses regained.",
+        "Teaching": "Advised on risk factor management and need for long-term anticoagulation."
+      }
+    },
+    {
+      "patientID": "IM185",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "58-year-old male presenting with chronic diarrhea, weight loss, and abdominal cramping. Colonoscopy revealed terminal ileum inflammation, suggestive of Crohn's disease.",
+        "Action": "Started corticosteroids and immunomodulator therapy, arranged for nutritional support.",
+        "Response": "Symptoms improved significantly over 2 weeks; patient to be re-evaluated.",
+        "Teaching": "Educated on disease management, dietary modifications, and importance of medication adherence."
+      }
+    },
+    {
+      "patientID": "IM186",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "65-year-old female with history of mild hypertension presenting with dark urine, facial edema, and frothy urine. Lab work reveals proteinuria and hematuria.",
+        "Action": "Referred for nephrology consultation, initiated ACE inhibitor therapy, and ordered renal biopsy.",
+        "Response": "Edema and hematuria started to improve following treatment.",
+        "Teaching": "Educated on low-sodium diet, fluid management, and significance of renal follow-up."
+      }
+    },
+    {
+      "patientID": "IM187",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "50-year-old male with an incidental adrenal mass discovered on abdominal imaging. Patient asymptomatic with normal hormonal studies.",
+        "Action": "Scheduled follow-up imaging and endocrinology evaluation for surveillance.",
+        "Response": "Mass remains stable over initial observation period.",
+        "Teaching": "Instructed on signs and symptoms of adrenal hormone excess and need for regular monitoring."
+      }
+    },
+    {
+      "patientID": "IM188",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "40-year-old female presenting with spontaneous bruising, petechiae, and a platelet count of 25,000/µL. Suspicion of idiopathic thrombocytopenic purpura (ITP).",
+        "Action": "Initiated corticosteroid therapy and IVIG as per protocol, monitored platelet count.",
+        "Response": "Platelet count improved to 80,000/µL over 5 days, bleeding episodes reduced.",
+        "Teaching": "Educated on signs of bleeding, importance of avoiding trauma, and need for close hematologic follow-up."
+      }
+    },
+    {
+      "patientID": "IM189",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "30-year-old male presenting with high fever, flank pain, and a positive urine culture for E. coli, consistent with pyelonephritis.",
+        "Action": "Started IV ceftriaxone, provided hydration, and monitored renal function and vital signs.",
+        "Response": "Fever resolved, flank pain improved, and patient transitioned to oral antibiotics.",
+        "Teaching": "Instructed on completing the antibiotic course, hydration, and UTI prevention measures."
+      }
+    },
+    {
+      "patientID": "IM190",
+      "ward": "Internal Medicine Ward",
+      "DART": {
+        "Data": "45-year-old female with known autoimmune hepatitis presenting with increased jaundice, pruritus, and elevated liver enzymes.",
+        "Action": "Escalated corticosteroid therapy and arranged for liver function monitoring, consulted hepatology.",
+        "Response": "Liver enzymes gradually decreased, and symptoms improved over one week.",
+        "Teaching": "Educated on medication adherence, avoiding hepatotoxic substances, and need for regular follow-up."
+      }
+    },
+    {
+      "patientID": "HD001",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "During dialysis, patient experienced sudden chest tightness, dyspnea, pulmonary auscultation revealed crackles, oxygen saturation dropped to 90%, blood pressure elevated to 160/92 mmHg.",
+        "Action": "Immediately stopped ultrafiltration, administered high-flow oxygen mask at 6L/min, notified physician, administered diuretics per physician’s order, and placed patient in semi-Fowler’s position.",
+        "Response": "Patient’s breathing gradually stabilized after 30 minutes, oxygen saturation improved to 95%, pulmonary crackles reduced.",
+        "Teaching": "Educated patient to strictly control salt and fluid intake, monitor daily weight changes, and inform nurses of any unusual symptoms before dialysis."
+      }
+    },
+    {
+      "patientID": "HD003",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "During dialysis, patient reported chest tightness, mild dyspnea, slight numbness in limbs; suspected electrolyte imbalance without significant blood pressure abnormality.",
+        "Action": "Notified physician, adjusted potassium concentration in dialysate, continuously monitored patient's vital signs and ECG.",
+        "Response": "20 minutes after adjusting dialysate, patient reported significant relief from chest tightness and reduced numbness.",
+        "Teaching": "Educated patient to maintain balanced diet, avoid excessive intake of potassium-rich foods, and regularly monitor electrolyte levels."
+      }
+    },
+    {
+      "patientID": "HD004",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Shortly after dialysis started, patient reported chest discomfort, difficulty breathing, appeared anxious, vital signs within normal limits.",
+        "Action": "Provided reassurance and guided relaxation breathing techniques, adjusted patient's position for comfort, continuously observed patient.",
+        "Response": "After approximately 10 minutes of reassurance, patient's breathing eased, anxiety significantly reduced.",
+        "Teaching": "Taught patient relaxation techniques before and after dialysis, advised immediate reporting of anxiety or discomfort to nursing staff."
+      }
+    },
+    {
+      "patientID": "HD005",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Slight skin redness was observed during dialysis, suspected mild allergic reaction.",
+        "Action": "Immediately stopped dialysis, notified physician, administered antihistamine medication, monitored allergic symptoms, adjusted dialysis supplies.",
+        "Response": "Skin redness improved within 15 minutes.",
+        "Teaching": "Advised patient to record possible allergens, avoid related dialysis supplies in future treatments."
+      }
+    },
+    {
+      "patientID": "HD006",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Pre-dialysis assessment revealed weakened bruit over the right forearm AV fistula with no palpable thrill.",
+        "Action": "Notified physician immediately, scheduled vascular ultrasound, suspended right arm puncture and used left arm instead.",
+        "Response": "Ultrasound suggested possible fistula stenosis; referral arranged for further evaluation.",
+        "Teaching": "Instructed patient to check fistula bruit and thrill daily and report any abnormal findings immediately."
+      }
+    },
+    {
+      "patientID": "HD007",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient experienced sudden dizziness and cold sweats during dialysis; blood glucose measured at 58 mg/dL.",
+        "Action": "Stopped dialysis immediately, administered 200ml glucose solution, and closely monitored vital signs.",
+        "Response": "Symptoms improved after 15 minutes; blood glucose increased to 96 mg/dL.",
+        "Teaching": "Educated patient to eat adequately before dialysis and avoid undergoing treatment on an empty stomach."
+      }
+    },
+    {
+      "patientID": "HD008",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Pre-dialysis blood pressure elevated at 172/100 mmHg; patient admitted to noncompliance with medication.",
+        "Action": "Initiated low-sodium dialysis per physician's order; contacted physician to evaluate antihypertensive adjustment.",
+        "Response": "BP gradually decreased to 150/90 mmHg during dialysis without discomfort.",
+        "Teaching": "Reinforced medication adherence, reminded patient to take meds regularly and attend scheduled follow-ups."
+      }
+    },
+    {
+      "patientID": "HD009",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Post-dialysis observation showed ~3cm hematoma at right arm puncture site, dark red in color with mild pain.",
+        "Action": "Applied cold compress for 15 minutes, followed by pressure dressing and skin observation.",
+        "Response": "After 30 minutes, swelling remained stable, and pain decreased.",
+        "Teaching": "Instructed patient to avoid heavy lifting or pressure at site, and monitor for continued swelling or color changes."
+      }
+    },
+    {
+      "patientID": "HD010",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Before dialysis, patient expressed concern over loss of independence and recent insomnia affecting mood.",
+        "Action": "Referred to case manager and social worker for evaluation, provided empathetic listening and psychological resources.",
+        "Response": "Patient reported feeling understood and emotionally more stable.",
+        "Teaching": "Encouraged regular sleep schedule, practice of relaxation techniques, and follow psychological consultation advice."
+      }
+    },
+    {
+      "patientID": "HD011",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient experienced persistent dry cough during dialysis, with mild sore throat and increased sputum over past two days.",
+        "Action": "No fever noted, surgical mask applied, observed for respiratory distress, and physician notified for infection assessment.",
+        "Response": "Cough did not worsen; dialysis completed uneventfully. Physician advised continued monitoring and protective measures.",
+        "Teaching": "Educated patient on hand hygiene and advised seeking care if cough persists or fever develops."
+      }
+    },
+    {
+      "patientID": "HD012",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Repeated failed attempts to puncture right arm fistula with poor blood return; patient reported stinging pain.",
+        "Action": "Suspended right arm puncture, switched to left arm temporary catheter; monitored for bruising and pain.",
+        "Response": "Dialysis completed successfully after site change; local pain did not worsen.",
+        "Teaching": "Instructed patient on protecting AV fistula and avoiding pressure on affected limb."
+      }
+    },
+    {
+      "patientID": "HD013",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient reported nausea and mild gastric discomfort during late dialysis phase; no vomiting; blood pressure slightly low.",
+        "Action": "Adjusted lying position, slowed dialysis rate, provided water for mouth rinse, observed for emesis.",
+        "Response": "No vomiting occurred; patient reported some relief; blood pressure stabilized.",
+        "Teaching": "Advised not to undergo dialysis on empty stomach and to avoid greasy or spicy foods."
+      }
+    },
+    {
+      "patientID": "HD014",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient expressed fear and anxiety toward puncture needles before dialysis; slight hand tremor observed.",
+        "Action": "Nurse explained puncture procedure, distracted patient, used smaller needle, and maintained calm communication.",
+        "Response": "Patient emotionally stabilized after successful puncture and agreed to continue with treatment.",
+        "Teaching": "Encouraged patient to practice deep breathing before session and communicate with staff for support."
+      }
+    },
+    {
+      "patientID": "HD015",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient reported mild shortness of breath at start of dialysis, no chest tightness, vital signs stable.",
+        "Action": "Monitored respiratory rate and SpO₂, allowed rest, adjusted seating angle.",
+        "Response": "Symptoms resolved after 10 minutes; no abnormalities noted.",
+        "Teaching": "Advised patient to avoid anxiety and strenuous activity before dialysis."
+      }
+    },
+    {
+      "patientID": "HD016",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient experienced dizziness and sweating in late dialysis; BP dropped to 95/60 mmHg.",
+        "Action": "Reduced ultrafiltration rate and administered 200cc normal saline.",
+        "Response": "Symptoms improved; BP increased to 110/70 mmHg after fluid administration.",
+        "Teaching": "Explained importance of fluid control and eating before dialysis."
+      }
+    },
+    {
+      "patientID": "HD017",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "First puncture attempt failed, resulting in localized hematoma and bruising; patient complained of discomfort.",
+        "Action": "Changed puncture site and completed dialysis; applied cold compress to original site for 15 minutes.",
+        "Response": "Hematoma remained stable, pain did not worsen.",
+        "Teaching": "Advised patient to avoid pressure on site and monitor for changes."
+      }
+    },
+    {
+      "patientID": "HD018",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient showed anxiety and resistance upon entering dialysis room, refused to sit on treatment chair.",
+        "Action": "Nurse and case manager provided reassurance, psychological support, and delayed dialysis initiation.",
+        "Response": "After 20 minutes, patient emotionally stabilized and agreed to begin treatment.",
+        "Teaching": "Taught relaxation techniques and encouraged expression of stressors."
+      }
+    },
+    {
+      "patientID": "HD019",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "BP exceeded 160/95 mmHg in three consecutive sessions; patient admitted skipping antihypertensive meds.",
+        "Action": "Reported to physician and re-evaluated antihypertensive regimen.",
+        "Response": "Dialysis completed uneventfully without dizziness or discomfort.",
+        "Teaching": "Emphasized importance of regular medication adherence and provided reminder strategies."
+      }
+    },
+    {
+      "patientID": "HD020",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "Patient developed severe chest tightness and dyspnea 90 minutes into dialysis; oxygen saturation dropped to 88%.",
+        "Action": "Stopped dialysis, administered oxygen, raised head of bed, and arranged emergency transfer.",
+        "Response": "Symptoms slightly relieved after emergency management; patient transferred to hospital.",
+        "Teaching": "Educated patient and family to recognize signs of respiratory distress and respond promptly."
+      }
+    },
+    {
+      "patientID": "HD021",
+      "ward": "Hemodialysis Unit",
+      "DART": {
+        "Data": "During dialysis treatment, the patient reported sudden chest tightness and rapid breathing, appeared anxious; respiratory rate reached 24 breaths per minute, blood pressure was slightly elevated, and pulse was accelerated.",
+        "Action": "Immediately reduced ultrafiltration rate, administered oxygen therapy via nasal cannula at 2L/min, arranged semi-Fowler's position, notified physician for further assessment or possible dialysis discontinuation.",
+        "Response": "Approximately 15 minutes after intervention, patient reported relief of chest tightness, breathing gradually improved, vital signs gradually stabilized.",
+        "Teaching": "Advised patient to control fluid intake in daily diet, avoid excessive fluid intake before dialysis, and educated patient to immediately inform nursing staff if experiencing breathing difficulties or chest tightness."
+      }
+    },
+        {
+      "patientID": "MICU001",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "68-year-old male with severe pneumonia, intubated due to acute respiratory failure. SpO₂ 88%, coarse lung sounds bilaterally.",
+        "Action": "Adjusted ventilator settings, performed frequent suctioning, initiated broad-spectrum antibiotics per order.",
+        "Response": "SpO₂ improved to 95%, decreased lung secretions.",
+        "Teaching": "Educated family on pneumonia treatment, ventilator purpose, and infection control."
+      }
+    },
+    {
+      "patientID": "MICU002",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "74-year-old female with septic shock post-pneumonia. After intubation and suctioning, BP fell to 80/50 mmHg, SpO₂ decreased to 89%, HR at 114 bpm, with general pallor.",
+        "Action": "Rapid IV fluids and norepinephrine infusion initiated. Ventilator settings maintained; blood cultures sent; broad-spectrum antibiotics administered.",
+        "Response": "Vital signs stabilized over 30 minutes; BP 96/60 mmHg, SpO₂ 93%, improved alertness.",
+        "Teaching": "Discussed septic shock risk, importance of prompt intervention, and family advised to avoid unnecessary stimulation."
+      }
+    },
+    {
+      "patientID": "MICU003",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "65-year-old male with COPD exacerbation, severe dyspnea, RR 32 breaths/min, SpO₂ 85%.",
+        "Action": "Initiated BiPAP ventilation, administered bronchodilators, and monitored respiratory status continuously.",
+        "Response": "Respiratory rate reduced to 24 breaths/min, SpO₂ improved to 92%.",
+        "Teaching": "Educated patient and family on COPD management, breathing exercises, and smoking cessation importance."
+      }
+    },
+    {
+      "patientID": "MICU004",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "79-year-old female with acute renal failure, decreased urine output (20 mL/6 hrs), significant fluid retention.",
+        "Action": "Initiated furosemide infusion, monitored fluid balance and electrolyte levels closely.",
+        "Response": "Urine output increased to 150 mL/hr, edema gradually decreased.",
+        "Teaching": "Discussed renal function monitoring, diet adjustments, and fluid management with family."
+      }
+    },
+    {
+      "patientID": "MICU005",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "58-year-old male experiencing acute myocardial infarction, severe chest pain, and diaphoresis.",
+        "Action": "Administered nitroglycerin, aspirin, and heparin infusion; continuously monitored cardiac rhythm and vital signs.",
+        "Response": "Chest pain significantly reduced, ECG showed decreased ischemic changes.",
+        "Teaching": "Explained signs of heart attack, importance of medication adherence, and lifestyle modifications."
+      }
+    },
+    {
+      "patientID": "MICU006",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "82-year-old female admitted with hemorrhagic stroke, presenting with altered consciousness and right hemiparesis.",
+        "Action": "Maintained cerebral perfusion pressure, initiated antihypertensive therapy, and frequent neurological assessments.",
+        "Response": "Neurological status stabilized, blood pressure maintained within target range.",
+        "Teaching": "Provided education on stroke signs, rehabilitation options, and ongoing care needs."
+      }
+    },
+    {
+      "patientID": "MICU007",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "70-year-old male with gastrointestinal bleeding, presenting melena and hemoglobin at 7.2 g/dL.",
+        "Action": "Transfused packed red blood cells, administered proton pump inhibitors, monitored hemoglobin levels closely.",
+        "Response": "Hemoglobin increased to 9.0 g/dL, melena episodes decreased.",
+        "Teaching": "Advised dietary modifications, signs of recurrent bleeding, and medication use precautions."
+      }
+    },
+    {
+      "patientID": "MICU008",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "77-year-old female with diabetic ketoacidosis (DKA), blood glucose level 520 mg/dL, presenting confusion and dehydration.",
+        "Action": "Initiated insulin drip, fluid replacement, and electrolyte correction; monitored blood glucose hourly.",
+        "Response": "Blood glucose decreased to 200 mg/dL within 6 hours, mental status improved.",
+        "Teaching": "Explained importance of glycemic control, insulin management, and recognizing DKA symptoms."
+      }
+    },
+    {
+      "patientID": "MICU009",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "66-year-old male with hepatic encephalopathy, presenting with confusion and elevated ammonia levels.",
+        "Action": "Administered lactulose, monitored ammonia levels, and neurological status regularly.",
+        "Response": "Ammonia levels reduced, consciousness gradually improved.",
+        "Teaching": "Educated family about hepatic encephalopathy management, dietary protein restrictions, and medication adherence."
+      }
+    },
+    {
+      "patientID": "MICU010",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "55-year-old female with pulmonary embolism, presenting acute onset dyspnea and hypoxia.",
+        "Action": "Initiated anticoagulant therapy, oxygen therapy, and continuous respiratory monitoring.",
+        "Response": "Respiratory distress relieved, oxygenation improved significantly.",
+        "Teaching": "Explained anticoagulation therapy importance, recognizing recurrence symptoms, and preventive measures."
+      }
+    },
+    {
+      "patientID": "MICU011",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "60-year-old male with acute pancreatitis, severe abdominal pain radiating to the back, elevated lipase and amylase levels.",
+        "Action": "Maintained NPO status, administered IV fluids and analgesics per order, monitored enzyme levels daily.",
+        "Response": "Pain decreased significantly, pancreatic enzyme levels trending down.",
+        "Teaching": "Provided education on dietary restrictions, alcohol avoidance, and symptom recognition."
+      }
+    },
+    {
+      "patientID": "MICU012",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "63-year-old female admitted for severe asthma exacerbation, presenting wheezing and respiratory distress.",
+        "Action": "Provided nebulized bronchodilators, corticosteroids, and monitored respiratory function continuously.",
+        "Response": "Breathing significantly improved, wheezing diminished.",
+        "Teaching": "Educated patient on asthma triggers, inhaler technique, and emergency response plan."
+      }
+    },
+    {
+      "patientID": "MICU013",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "72-year-old male with acute exacerbation of congestive heart failure, presenting severe edema and dyspnea.",
+        "Action": "Administered diuretics, oxygen supplementation, and maintained semi-Fowler’s position.",
+        "Response": "Edema reduced notably, breathing eased.",
+        "Teaching": "Educated family on fluid management, diet modifications, and monitoring symptoms of worsening heart failure."
+      }
+    },
+    {
+      "patientID": "MICU014",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "81-year-old female with acute bacterial meningitis, fever 39.5°C, neck stiffness, and confusion.",
+        "Action": "Administered IV antibiotics promptly after lumbar puncture, monitored neurological status closely, managed fever with antipyretics.",
+        "Response": "Temperature normalized, neurological symptoms improved gradually.",
+        "Teaching": "Explained to family about meningitis signs, treatment importance, and prevention of complications."
+      }
+    },
+    {
+      "patientID": "MICU015",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "After suctioning, the patient appeared pale and diaphoretic, BP dropped to 88/56 mmHg, SpO₂ decreased to 91%, HR was 112 bpm, RR reached 30 breaths/min. Lung auscultation revealed coarse crackles. GCS E3VTM4, consciousness slightly drowsy.",
+        "Action": "Immediately placed patient in semi-Fowler’s position, increased oxygen flow to 8L/min via face mask, established second IV line and initiated rapid fluid replacement, continuously monitored BP and SpO₂, and notified physician to assess vasopressor adjustment.",
+        "Response": "About 15 minutes later, BP increased to 96/60 mmHg, SpO₂ stabilized at 94%, patient appeared more relaxed, consciousness slightly improved. Respiratory rate still elevated but no audible wheezing.",
+         "Teaching": "Explained to family that patient is in septic shock and requires close monitoring of vital signs and responses. Advised not to disconnect the ventilator or disturb tubing, and emphasized the necessity of frequent suctioning and observation."
+      }
+    },
+    {
+      "patientID": "MICU016",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "On the second day post-intubation, the patient developed a fever of 38.5°C, BP 94/58 mmHg, HR 108 bpm, RR 28 breaths/min, and SpO₂ dropped to 90%.",
+        "Action": "Collected blood cultures, initiated broad-spectrum antibiotic therapy, increased FiO₂ setting on the ventilator, and continued monitoring vital signs and fever condition.",
+        "Response": "Two hours post-intervention, temperature reduced to 37.9°C, SpO₂ improved to 94%, and BP stabilized slightly.",
+        "Teaching": "Explained to the family the possibility of hospital-acquired infection, emphasizing the importance of antibiotic therapy and regular monitoring."
+      }
+    },
+    {
+        "patientID": "MICU017",
+        "ward": "Medical Intensive Care Unit (MICU)",
+        "DART": {
+          "Data": "While on mechanical ventilation, patient became agitated, BP increased to 150/90 mmHg, HR accelerated to 120 bpm, and exhibited confusion.",
+          "Action": "Assessed sedation needs, adjusted sedation medication dosage, monitored consciousness level and vital signs, and continuously observed patient response.",
+          "Response": "Approximately 30 minutes later, patient's agitation gradually subsided, vital signs returned to baseline.",
+          "Teaching": "Explained to family that ICU patients often experience agitation due to insufficient sedation or environmental factors, and recommended minimizing stimulation during visits and maintaining a quiet environment."
+        }
+    },
+    {
+      "patientID": "MICU018",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "On day three post-intubation, secretions noted around endotracheal tube, suspected mucus plugging, unstable oxygenation status (SpO₂ 89%).",
+        "Action": "Immediately performed deep suctioning and tube position check, re-secured the tube, and increased oxygen delivery.",
+        "Response": "Post-intervention, SpO₂ improved to 95%, mucus secretion decreased, and airway resistance reduced.",
+        "Teaching": "Reminded family of the importance of maintaining oral hygiene to reduce risks of respiratory infections and tube obstruction."
+      }
+    },
+    {
+      "patientID": "MICU019",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "Patient presented with decreased urine output (only 20 mL over 6 hours), mild edema, BP 96/60 mmHg, and lethargy.",
+        "Action": "Performed immediate urinalysis and renal function tests, halted nephrotoxic medications, notified physician to evaluate diuretic therapy.",
+        "Response": "Following physician's diuretic orders, urine output gradually increased, edema improved, and consciousness recovered.",
+        "Teaching": "Educated family about potential acute kidney injury, emphasized monitoring urine output and fluid intake, and discouraged administration of additional fluids without medical advice."
+      }
+    },
+    {
+      "patientID": "MICU020",
+      "ward": "Medical Intensive Care Unit (MICU)",
+      "DART": {
+        "Data": "Patient's blood glucose reached 300 mg/dL, developed confusion, accelerated heart rate of 110 bpm, and rapid breathing at 26 breaths/min.",
+        "Action": "Administered rapid-acting insulin per physician order, regularly monitored blood glucose, consciousness, and vital signs.",
+        "Response": "Approximately one hour later, blood glucose reduced to 200 mg/dL, consciousness gradually improved, and respiratory rate normalized.",
+        "Teaching": "Advised family that diabetic patients may experience unstable glucose levels during critical illness, highlighting the importance of close monitoring of diet and blood glucose."
+      }
+    }
+  ]
+}

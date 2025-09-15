@@ -1,0 +1,93 @@
+# # version: '3.9'
+# services:
+#   elasticsearch:
+#     image: docker.elastic.co/elasticsearch/elasticsearch:8.5.1
+#     # container_name: es_container
+#     environment:
+#       - discovery.type=single-node
+#       - xpack.security.enabled=false
+#       - xpack.security.http.ssl.enabled=false
+#       - xpack.security.transport.ssl.enabled=false
+#       - bootstrap.memory_lock=true
+#       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+#     ulimits:
+#       memlock:
+#         soft: -1
+#         hard: -1
+#     ports:
+#       - "9200:9200"
+#     volumes:
+#       - esdata:/usr/share/elasticsearch/data
+#     healthcheck:
+#         test: ["CMD-SHELL", "curl -f http://localhost:9200 || exit 1"]
+#         interval: 30s
+#         timeout: 10s
+#         retries: 5
+
+#   backend:
+#     build:
+#       context: ./backend
+#       dockerfile: Dockerfile
+#     # container_name: backend_container
+#     depends_on:
+#       - elasticsearch
+#     ports:
+#       - "8000:8000"
+#     environment:
+#       - FLASK_ENV=development
+
+# volumes:
+#   esdata:
+
+
+version: '3.9'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.5.1
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  postgres:
+    image: postgres:14
+    container_name: my_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: mythesis
+      POSTGRES_PASSWORD: thesis1234
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"  # 開放 PostgreSQL 端口
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: my_pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: thesis@example.com
+      PGADMIN_DEFAULT_PASSWORD: thesis1234
+    ports:
+      - "5050:80"  # pgAdmin 界面使用 5050 端口來訪問
+
+volumes:
+  esdata:
+  postgres_data:

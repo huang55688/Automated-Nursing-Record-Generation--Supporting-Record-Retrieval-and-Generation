@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/PDlook.css') }}?v={{ time }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/header.css') }}?v={{ time }}">
+    <script src="{{ url_for('static', filename='js/header.js') }}" defer></script>
+    <title>Nursing Record Query System</title>
+</head>
+<body>
+<div class="ALL">
+  <n-header 
+        data-index-url="{{ url_for('main.index') }}"
+        data-record-url="{{ url_for('main.pdlook') }}">
+  </n-header>
+    
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Patient Records</h2>
+
+        <div id="patient-list">
+            <!-- 動態生成患者資料 -->
+            {% for patient in patients %}
+            <div class="patient-card">
+                <span class="patient-name">{{ patient[0] }} {{ patient[1] }}</span>
+                <a href="{{ url_for('main.pdedit', patient_id=patient[0]) }}" class="btn btn-primary">View</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{#<script>
+    const patients = [
+    { id: "A001", name: "王曉明" },
+    { id: "A002", name: "陳筱美" },
+    { id: "A003", name: "李阿志" },
+    { id: "A004", name: "李小志" },
+    { id: "A005", name: "李阿志" },
+    { id: "A006", name: "李阿志" },
+    { id: "A007", name: "李阿志" },
+    { id: "A008", name: "李阿志" },
+    { id: "A009", name: "李阿志" }
+];
+
+const patientList = document.getElementById("patient-list");
+
+
+patients.forEach(patient => {
+    const card = document.createElement("div");
+    card.classList.add("patient-card");
+
+    card.innerHTML = `
+        <span class="patient-name">${patient.id} ${patient.name}</span>
+        <button class="view-button" data-id="${patient.id}">View</button>
+    `;
+
+    patientList.appendChild(card);
+});
+
+document.querySelectorAll(".view-button").forEach(button => {
+    button.addEventListener("click", (event) => {
+        const patientId = event.target.getAttribute("data-id");
+        window.location.href = `PDEdit.html?id=${patientId}`;
+    });
+});
+
+
+</script> #}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

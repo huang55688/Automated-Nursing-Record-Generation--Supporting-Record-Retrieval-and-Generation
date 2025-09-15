@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/header.css') }}?v={{ time }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/input.css') }}?v={{ time }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/output.css') }}?v={{ time }}">
+    <script src="{{ url_for('static', filename='js/header.js') }}" defer></script>
+    <title>Nursing Record Query System</title>
+</head>
+<body>
+<div class="ALL">
+  <n-header 
+        data-index-url="{{ url_for('main.index') }}"
+        data-record-url="{{ url_for('main.pdlook') }}">
+  </n-header>
+    <div class="asdf-container">
+        <div class="asdf">
+            <div class="sbb">
+                DART record
+                <a href="/" class="return-btn">回到搜尋頁面</a>
+            </div><br>
+        </div>
+
+        <form action="/save_symptoms" method="POST">
+            <input type="hidden" name="patient_id" id="patient_id" value="{{ patient_id }}">
+            <input type="hidden" name="date" id="date" value="{{ date }}">
+            <input type="hidden" name="time"  id="time"value="{{ time }}">
+        
+            <div class="Sso">
+                <div class="M">
+                <!-- 護理記錄 -->
+                    {% if results %}
+                        {% for record in results %}
+                        <div class="note-container">
+                            <label class="note-header">
+                                <input type="checkbox" class="note-checkbox" name="selected_records" value="{{ record['DART'] }}"> Record {{ loop.index }}
+                            </label>
+                            <div class="note-content">
+                                <div class="note-text">
+                                    <p><b>Data:</b> <span contenteditable="true">{{ record["DART"]["Data"] }}</span></p>
+                                    <p><b>Action:</b> <span contenteditable="true">{{ record["DART"]["Action"] }}</span></p>
+                                    <p><b>Response:</b> <span contenteditable="true">{{ record["DART"]["Response"] }}</span></p>
+                                    <p><b>Teaching:</b> <span contenteditable="true">{{ record["DART"]["Teaching"] }}</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                        <p>No matching nursing records found.</p>
+                    {% endif %}
+        
+                    <div class="bird">
+                        <button type="button" id="save-button" class="Button">儲存勾選記錄</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+</div>
+<script>
+    document.getElementById("save-button").addEventListener("click", function(e) {
+        e.preventDefault();
+    
+        let selectedRecords = [];
+    
+        document.querySelectorAll(".note-container").forEach(container => {
+            let checkbox = container.querySelector("input[type='checkbox']");
+            if (checkbox.checked) {
+                selectedRecords.push({
+                    Data: container.querySelector("p:nth-child(1) span").innerText,
+                    Action: container.querySelector("p:nth-child(2) span").innerText,
+                    Response: container.querySelector("p:nth-child(3) span").innerText,
+                    Teaching: container.querySelector("p:nth-child(4) span").innerText
+                });
+            }
+        });
+    
+        if (selectedRecords.length === 0) {
+            alert("請至少選擇一筆記錄！");
+            return;
+        }
+    
+        fetch("/save_symptoms", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+                patient_id: "{{ patient_id }}",
+                date: "{{ date }}",
+                time: "{{ time }}",
+                records: selectedRecords
+            })
+        })
+        .then(res => {
+            if (!res.ok) throw new Error("HTTP error " + res.status);
+            return res.json();
+        })
+        .then(data => {
+            alert(data.message);
+            window.location.href = "/";
+        })
+        .catch(err => {
+            alert("儲存失敗：" + err);
+            console.error(err);
+        });
+    });
+    </script>
+    
+    
+</body>
+</html>

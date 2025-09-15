@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data Entry</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/PDEdit.css') }}?v={{ time }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/header.css') }}?v={{ time }}">
+    <script src="{{ url_for('static', filename='js/header.js') }}" defer></script>
+</head>
+
+<body>
+    <div class="ALL">
+        <n-header data-index-url="{{ url_for('main.index') }}" data-record-url="{{ url_for('main.pdlook') }}"></n-header>
+
+        <div class="container-fluid mt-5">
+            <div class="row">
+
+                <!-- 左側病人列表 -->
+                <div class="col-md-3">
+                    <h4 class="text-center">Patient List</h4>
+                    <div id="patient-list" class="list-group mb-4">
+                        {% for patient in patients %}
+                        <a href="{{ url_for('main.pdedit', patient_id=patient[0]) }}"
+                            class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            <span>{{ patient[0] }} {{ patient[1] }}</span>
+                            <span class="badge bg-primary rounded-pill">View</span>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- 右側 PDEdit 表單 -->
+                <div class="col-md-9">
+                    <div class="text-center">
+                    <h3 class="text-center mb-4">Nursing Record</h3>
+                    </div>
+                    <form action="{{ url_for('main.update_patient', patient_id=patient.patient_id) }}" method="POST">
+                        <!-- 病人基本資料 -->
+                        <div class="card mb-4">
+                            <div class="card-header">Personal Information</div>
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Patient ID:</label>
+                                        <input type="text" class="form-control" name="patient_id" value="{{ patient.patient_id }}" readonly>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Patient Name:</label>
+                                        <input type="text" class="form-control" name="patient_name" value="{{ patient.patient_name }}" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Gender:</label><br>
+                                        <input type="radio" name="gender" value="girl" {% if patient.gender == 'girl' %}checked{% endif %}> 女
+                                        <input type="radio" name="gender" value="boy" {% if patient.gender == 'boy' %}checked{% endif %}> 男
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Age:</label>
+                                        <input type="text" class="form-control" name="age" value="{{ patient.age }}" required>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Ward Name:</label>
+                                        <input type="text" class="form-control" name="wardname" value="{{ patient.ward_name }}" required>
+                                        <input type="hidden" name="ward" value="{{ patient.ward_id }}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% for i in range(vitals_list|length) %}
+                        <div class="card mb-4">
+                            <div class="card-header">Record {{ i + 1 }}</div>
+                            <div class="card-body">
+                                <!-- 隱藏原始日期時間 -->
+                                <input type="hidden" name="original_date" value="{{ vitals_list[i].date }}">
+                                <input type="hidden" name="original_time" value="{{ vitals_list[i].time }}">
+                                {% if symptoms_list[i] is defined %}
+                                <input type="hidden" name="symptoms_date" value="{{ symptoms_list[i].date }}">
+                                <input type="hidden" name="symptoms_time" value="{{ symptoms_list[i].time }}">
+                                {% endif %}
+
+                                <!-- Vitals -->
+                                <h5 class="mb-3 fw-bold lala">Vitals</h5>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Date:</label>
+                                        <input type="date" class="form-control" name="date" value="{{ vitals_list[i].date }}">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Time:</label>
+                                        <input type="time" class="form-control" name="time" value="{{ vitals_list[i].time }}">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Temperature:</label>
+                                        <input type="text" class="form-control" name="temperature" value="{{ vitals_list[i].temperature }}">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Respiration:</label>
+                                        <input type="text" class="form-control" name="respiration" value="{{ vitals_list[i].respiration }}">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label">Pulse:</label>
+                                        <input type="text" class="form-control" name="pulse" value="{{ vitals_list[i].pulse }}">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label">Blood Pressure:</label>
+                                        <input type="text" class="form-control" name="blood_pressure" value="{{ vitals_list[i].blood_pressure }}">
+                                    </div>
+                                </div>
+
+                                <hr class="my-4 border-dashed">
+
+                                <!-- Symptoms -->
+                                {% if symptoms_list[i] is defined %}
+                                <h5 class="mt-4 mb-3 fw-bold lala">Symptoms</h5>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Data:</label>
+                                    <textarea class="form-control" name="symptoms_data">{{ symptoms_list[i].data }}</textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Action:</label>
+                                    <textarea class="form-control" name="symptoms_action">{{ symptoms_list[i].action }}</textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Response:</label>
+                                    <textarea class="form-control" name="symptoms_response">{{ symptoms_list[i].response }}</textarea>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Teaching:</label>
+                                    <textarea class="form-control" name="symptoms_teaching">{{ symptoms_list[i].teaching }}</textarea>
+                                </div>
+                                {% endif %}
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+
+                        <!-- 編輯按鈕 -->
+                        <div class="text-center mb-5">
+                            <button type="submit" class="btn btn-primary Button1">Edit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

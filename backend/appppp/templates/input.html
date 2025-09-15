@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/header.css') }}?v={{ time }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/input.css') }}?v={{ time }}">
+    <title>Nursing Record Query System</title>
+    <script src="{{ url_for('static', filename='js/header.js') }}" defer></script>
+
+</head>
+<body>
+
+<div class="ALL">
+  <n-header 
+    data-index-url="{{ url_for('main.index') }}"
+    data-record-url="{{ url_for('main.pdlook') }}">
+</n-header>
+  <div class="main-content">
+    <div class="PatientList">
+      <h3>Patient List</h3>
+      <div id="patient-list">
+          {% for patient in patients %}
+          <div class="patient-item">
+              <span>{{ patient[0] }} {{ patient[1] }}</span>
+              <button class="view-btn" data-patient-id="{{ patient[0] }}">View</button>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+
+        <div class="Ss">
+            <div class="M">
+                <div class="asd">
+                    <div class="sb">Enter Patient Data</div><br>
+                </div>
+
+    <!-- 基本資料 -->
+    <div class="cool">
+      <div class="Entity">
+        <p>Personal Information</p>
+      </div>
+      <div class="Items">
+        <div class="searchh">
+          <form action="/search" method="POST" class="ff" id="patient_form">
+            <div class="PP P-name">
+              <span>Patient ID : </span>
+              <input type="text" name="patient_id" id="patient_id" required>
+              <input type="hidden" name="hidden_patient_id" id="hidden_patient_id">
+            </div>
+            <div class="PP P-gender">
+              <div class="gg">
+                <span>Gender : </span>
+                <div class="gen">
+                  <input type="radio" name="gender" value="girl" class="r1">女
+                  <input type="radio" name="gender" value="boy" class="r1">男
+                </div>
+              </div>
+            </div>
+            <div class="PP P-name">
+              <span>Patient Name : </span>
+              <input type="text" name="patient_name" required placeholder="Please enter the name.">
+            </div>
+            <div class="PP P-age">
+              <span>Age : </span>
+              <input type="number" name="age" min="0" required>
+            </div>
+            <div class="PP P-date">
+              <span>Date : </span>
+              <input type="date" name="date" id="date" required>
+              <input type="hidden" name="hidden_date" id="hidden_date">
+            </div>
+            <div class="PP P-time">
+              <span>Time : </span>
+              <input type="time" name="time" id="time" required>
+              <input type="hidden" name="hidden_time" id="hidden_time">
+            </div>
+            <div class="PP P-ward">
+              <span>Ward : </span>
+              <input type="text" name="ward" required>
+            </div>
+            <div class="PP P-tt">
+              <span>Temperature : </span>
+              <input type="number" id="temperature" name="temperature" step="0.1" required><span>°C </span>
+            </div>
+            <div class="PP P-tt">
+              <span>Respiration : </span>
+              <input type="number" id="respiration" name="respiration" required><span>bpm </span>
+            </div>
+            <div class="PP P-pp">
+              <span>Pulse : </span>
+              <input type="number" id="pulse" name="pulse" required><span>beat/min </span>
+            </div>
+            <div class="PP P-bbb">
+              <span>Blood Pressure : </span>
+              <input type="text" id="blood_pressure" name="blood_pressure" required><span>mmHg </span>
+            </div>
+            
+        </div>
+      </div>
+      <div class="bb">
+        <div class="PP P-check" id="checkAbnormalContainer" ">
+          <button type="button" id="checkAbnormalBtn" class="Button2">Generate Symptoms</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 護理記錄 -->
+    <div class="cool">
+      <div class="Entity">
+        <p>Symptom Details</p>
+      </div>
+      <div class="Items">
+        <div class="searchh">
+        <!-- 將 textarea 改為 contenteditable div -->
+        <div id="symptomDetails" contenteditable="true" class="word" 
+             style="min-height:220px; border: 1px solid #1B365D; border-radius: 5px; padding: 10px; background-color: #F4F8FF; color: #333;">
+        </div>
+        <!-- Hidden input 用來同步內容送出 -->
+        <input type="hidden" name="q" id="hidden_symptom">
+
+        </div>
+      </div>
+      <div class="bb">
+        <button type="submit" class="Button" >Retrieval</button>
+      </div>
+    </div>
+    </form>
+
+            </div>
+        </div>
+      </div>      
+</div>
+
+<script src="{{ url_for('static', filename='js/input.js') }}?v={{ time }}"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector("form.ff").addEventListener("submit", function() {
+        document.getElementById("hidden_patient_id").value = document.getElementById("patient_id").value;
+        document.getElementById("hidden_date").value = document.getElementById("date").value;
+        document.getElementById("hidden_time").value = document.getElementById("time").value;
+    });
+});
+</script>
+
+</body>
+</html>
